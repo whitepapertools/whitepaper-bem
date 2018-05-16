@@ -1,0 +1,3 @@
+.tpl-grid_columns_12 {
+	grid-template-columns: repeat(12, 1fr);
+}

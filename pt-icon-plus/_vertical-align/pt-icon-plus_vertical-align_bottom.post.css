@@ -1,0 +1,6 @@
+.pt-icon-plus_vertical-align_bottom {
+	align-items: flex-end;
+	.pt-icon-plus__icon {
+		margin-top: var(--space-xxxs);
+	}
+}

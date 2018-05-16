@@ -1,0 +1,4 @@
+.pt-list__item_indent-v_xl {
+	margin-top: var(--space-xl);
+	margin-bottom: var(--space-xl);
+}

@@ -1,0 +1,5 @@
+.pt-card__content_vertical-align_center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

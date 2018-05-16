@@ -1,0 +1,1 @@
+block('icon').mod('name', 'previous').mod('size', 's')({content: { html: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M5 9.4V15H3V1h2v5.6L13 1v14L5 9.4z"/></svg>' }});

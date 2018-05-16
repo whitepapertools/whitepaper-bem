@@ -1,0 +1,1 @@
+block('icon').mod('name', 'playlist').mod('size', 's')({content: { html: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M6 4.5L1 8V1l5 3.5zM8 5h7v2H8V5zm-7 8h14v2H1v-2zm0-4h14v2H1V9z"/></svg>' }});

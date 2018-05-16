@@ -1,0 +1,6 @@
+.pt-list__item_space-b_m {
+	padding-bottom: var(--space-m);
+	&:last-child {
+		padding-bottom: 0;
+	}
+}

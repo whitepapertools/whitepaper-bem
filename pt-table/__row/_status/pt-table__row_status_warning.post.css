@@ -1,0 +1,3 @@
+.pt-table__row_status_warning {
+	box-shadow: inset var(--space-xxs) 0 0 var(--color-bg-warning);
+}

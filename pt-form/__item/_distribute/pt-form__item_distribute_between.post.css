@@ -1,0 +1,4 @@
+.pt-form__item_distribute_between {
+	display: flex;
+	justify-content: space-between;
+}

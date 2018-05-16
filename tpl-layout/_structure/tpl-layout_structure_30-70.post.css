@@ -1,0 +1,4 @@
+.tpl-layout_structure_30-70 {
+	grid-template-columns: 30% 70%;
+	grid-template-rows: minmax(100vh, auto);
+}

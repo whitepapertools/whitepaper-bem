@@ -1,0 +1,7 @@
+$menu-fold: 56px;
+$menu-unfold: 300px;
+
+:root {
+	--menu-unfold: 300px;
+	--menu-fold: 56px;
+}

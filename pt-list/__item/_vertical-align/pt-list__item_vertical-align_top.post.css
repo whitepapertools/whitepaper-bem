@@ -1,0 +1,4 @@
+.pt-list__item_vertical-align_top {
+	display: flex;
+	align-items: flex-start;
+}

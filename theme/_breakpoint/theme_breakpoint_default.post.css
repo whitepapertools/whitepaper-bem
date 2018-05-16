@@ -1,0 +1,13 @@
+$screen-xs: 320px;
+$screen-s: 720px;
+$screen-m: 1024px;
+$screen-l: 1280px;
+$screen-xl: 1440px;
+
+:root {
+	--screen-xs: 320px;
+	--screen-s: 720px;
+	--screen-m: 1024px;
+	--screen-l: 1280px;
+	--screen-xl: 1440px;
+}

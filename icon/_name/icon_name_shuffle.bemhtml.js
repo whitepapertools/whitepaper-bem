@@ -1,0 +1,1 @@
+block('icon').mod('name', 'shuffle').mod('size', 's')({content: { html: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill-rule="evenodd" d="M13.205 4.205L2.41 15 1 13.59 11.795 2.795 10 1h5v5l-1.795-1.795zm-1.41 9L9.41 10.82l1.41-1.41 2.385 2.385L15 10v5h-5l1.795-1.795zM5.18 6.59L1 2.41 2.41 1l4.18 4.18-1.41 1.41z"/></svg>' }});

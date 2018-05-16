@@ -1,0 +1,4 @@
+.pt-table__col_grow_evenly {
+	flex-grow: 1;
+	flex-shrink: 1;
+}

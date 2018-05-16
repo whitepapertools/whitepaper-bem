@@ -1,0 +1,6 @@
+.text_type_blockquote {
+	margin-left: var(--space-xxxxl);
+	padding-left: var(--space-m);
+	margin-bottom: var(--space-l);
+	border-left: 3px solid var(--color-bg-brand);
+}

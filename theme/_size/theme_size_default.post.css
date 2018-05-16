@@ -1,0 +1,49 @@
+/* Размеры текста */
+$size-typo-xs: 11px;
+$size-typo-s: 13px;
+$size-typo-m: 15px;
+$size-typo-l: 18px;
+$size-typo-xl: 20px;
+$size-typo-xxl: 24px;
+$size-typo-xxxl: 32px;
+$size-typo-xxxxl: 48px;
+$size-typo-xxxxxl: 72px;
+$size-typo-xxxxxxl: 96px;
+
+/* Межстрочный интервал */
+$line-height-typo-xs: 15px;
+$line-height-typo-s: 18px;
+$line-height-typo-m: 21px;
+$line-height-typo-l: 25px;
+$line-height-typo-xl: 28px;
+$line-height-typo-xxl: 34px;
+$line-height-typo-xxxl: 42px;
+$line-height-typo-xxxxl: 62px;
+$line-height-typo-xxxxxl: 82px;
+$line-height-typo-xxxxxxl: 115px;
+
+:root {
+  /* Размер текста */
+  --size-typo-xs: $size-typo-xs;
+  --size-typo-s: $size-typo-s;
+  --size-typo-m: $size-typo-m;
+  --size-typo-l: $size-typo-l;
+  --size-typo-xl: $size-typo-xl;
+  --size-typo-xxl: $size-typo-xxl;
+  --size-typo-xxxl: $size-typo-xxxl;
+  --size-typo-xxxxl: $size-typo-xxxxl;
+  --size-typo-xxxxxl: $size-typo-xxxxxl;
+  --size-typo-xxxxxxl: $size-typo-xxxxxxl;
+
+  /* Межстрочный интервал */
+  --line-height-typo-xs: $line-height-typo-xs;
+  --line-height-typo-s: $line-height-typo-s;
+  --line-height-typo-m: $line-height-typo-m;
+  --line-height-typo-l: $line-height-typo-l;
+  --line-height-typo-xl: $line-height-typo-xl;
+  --line-height-typo-xxl: $line-height-typo-xxl;
+  --line-height-typo-xxxl: $line-height-typo-xxxl;
+  --line-height-typo-xxxxl: $line-height-typo-xxxxl;
+  --line-height-typo-xxxxxl: $line-height-typo-xxxxxl;
+  --line-height-typo-xxxxxxl: $line-height-typo-xxxxxxl;
+}

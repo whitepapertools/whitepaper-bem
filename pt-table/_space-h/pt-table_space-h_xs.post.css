@@ -1,0 +1,4 @@
+.pt-table_space-h_xs .pt-table__col {
+	padding-left: var(--space-xs);
+	padding-right: var(--space-xs);
+}

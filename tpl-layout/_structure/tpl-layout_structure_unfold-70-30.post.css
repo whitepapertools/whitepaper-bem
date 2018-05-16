@@ -1,0 +1,4 @@
+.tpl-layout_structure_unfold-70-30 {
+	grid-template-columns: var(--menu-unfold) calc((100% - var(--menu-unfold)) * 0.7) calc((100% - var(--menu-unfold)) * 0.3);
+	grid-template-rows: minmax(100vh, auto);
+}

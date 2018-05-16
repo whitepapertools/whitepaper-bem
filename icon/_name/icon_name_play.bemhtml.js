@@ -1,0 +1,1 @@
+block('icon').mod('name', 'play').mod('size', 'm')({content: { html: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M21 12L6 2v20z"/></svg>' }});block('icon').mod('name', 'play').mod('size', 's')({content: { html: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M14 8L4 1v14z"/></svg>' }});

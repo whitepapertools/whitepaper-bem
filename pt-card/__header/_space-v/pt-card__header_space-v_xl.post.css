@@ -1,0 +1,4 @@
+.pt-card__header_space-v_xl {
+	padding-top: var(--space-xl);
+	padding-bottom: var(--space-xl);
+}

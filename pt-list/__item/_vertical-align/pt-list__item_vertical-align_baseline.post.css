@@ -1,0 +1,4 @@
+.pt-list__item_vertical-align_baseline {
+	display: flex;
+	align-items: baseline;
+}

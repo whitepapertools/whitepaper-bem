@@ -1,0 +1,4 @@
+.badge_view_default {
+	background: var(--color-bg-ghost);
+	color: var(--color-typo-secondary);
+}

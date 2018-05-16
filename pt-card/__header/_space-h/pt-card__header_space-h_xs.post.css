@@ -1,0 +1,4 @@
+.pt-card__header_space-h_xs {
+	padding-left: var(--space-xs);
+	padding-right: var(--space-xs);
+}

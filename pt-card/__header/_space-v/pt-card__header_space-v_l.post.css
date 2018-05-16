@@ -1,0 +1,4 @@
+.pt-card__header_space-v_l {
+	padding-top: var(--space-l);
+	padding-bottom: var(--space-l);
+}

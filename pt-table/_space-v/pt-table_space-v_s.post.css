@@ -1,0 +1,4 @@
+.pt-table_space-v_s .pt-table__col {
+	padding-top: var(--space-s);
+	padding-bottom: var(--space-s);
+}

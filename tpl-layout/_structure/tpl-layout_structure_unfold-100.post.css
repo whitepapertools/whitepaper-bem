@@ -1,0 +1,4 @@
+.tpl-layout_structure_unfold-100 {
+	grid-template-columns: var(--menu-unfold) auto;
+	grid-template-rows: minmax(100vh, auto);
+}

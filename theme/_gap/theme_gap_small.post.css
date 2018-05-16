@@ -1,0 +1,20 @@
+/* Размеры отступа у контента */
+$gap: $space-xxxxl;
+
+/* Размеры отступов в колонках */
+$col-gap-third: $space-m;
+$col-gap-half: $space-xl;
+$col-gap-two-thirds: $space-xxxl;
+$col-gap-full: $space-xxxxl;
+
+
+:root {
+	/* Размеры отступа у контента */
+	--gap: var(--space-xxxxl);
+
+	/* Размеры отступов в колонках */
+	--col-gap-third: var(--space-m);
+	--col-gap-half: var(--space-xl);
+	--col-gap-two-thirds: var(--space-xxxl);
+	--col-gap-full: var(--space-xxxxl);
+}

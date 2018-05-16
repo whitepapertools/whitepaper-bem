@@ -1,0 +1,4 @@
+.badge_view_alert {
+	background: var(--color-bg-alert);
+	color: var(--color-typo-alert);
+}
