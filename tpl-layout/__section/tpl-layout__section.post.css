@@ -1,5 +1,3 @@
 .tpl-layout__section {
 	box-sizing: border-box;
-	font-size: var(--size-typo-m);
-	line-height: var(--line-height-typo-m);
 }
