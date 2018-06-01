@@ -1,4 +1,5 @@
 .badge {
+	position: relative;
 	display: inline-block;
 	height: var(--space-xl);
 	max-width: 100%;
@@ -11,4 +12,14 @@
 	font-face: $font-sans;
 	white-space: nowrap;
 	text-overflow: ellipsis;
+
+	&:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		border-radius: 99em;
+	}
 }
