@@ -108,6 +108,6 @@ $font-mono: monospace;
   --font-mono: monospace;
 }
 
-
-
-
+.theme_font_museo {
+  font-family: var(--font-sans);
+}

@@ -845,6 +845,6 @@ $font-mono: "ibm-plex-mono", monospace;
   --font-mono: "ibm-plex-mono", monospace;
 }
 
-
-
-
+.theme_font_ibm {
+  font-family: var(--font-sans);
+}
