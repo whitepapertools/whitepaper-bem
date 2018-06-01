@@ -21,9 +21,10 @@ $color-bg-ghost: color($color-base-phantom a(8%)); /* Цвет затенени�
 $color-bg-default: $color-base-essential; /* Цвет дефолта */
 $color-bg-tone: color($color-base-phantom a(90%)); /* Цвет паранджи */
 $color-bg-soft: color($color-base-essential a(97%)); /* Цвет молока */
-$color-bg-success: color($color-base-success s(-20%) l(+60%)); /* Цвет фона успеха */
-$color-bg-alert: color($color-base-alert a(10%)); /* Цвет фона ошибки */
-$color-bg-warning: color($color-base-warning a(40%)); /* Цвет фона предупреждения */
+
+$color-bg-success: $color-base-success; /* Цвет фона успеха */
+$color-bg-alert: $color-base-alert; /* Цвет фона ошибки */
+$color-bg-warning: $color-base-warning; /* Цвет фона предупреждения */
 $color-bg-normal: $color-base-normal; /* Цвет фона нейтральный */
 $color-bg-system: $color-base-system; /* Цвет фона системнный */
 $color-bg-link: color($color-base-path h(-7%) s(-13) l(+14) a(40%)); /* Цвет фона ссылки */
