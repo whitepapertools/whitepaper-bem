@@ -12,7 +12,7 @@ $space-xxxxl: 48px;
 $space-xxxxxl: 72px;
 $space-xxxxxxl: 96px;
 
-:root{
+.theme_space_default {
   /* Отступы */
   --space-xxxs: $space-xxxs;
   --space-xxs: $space-xxs;

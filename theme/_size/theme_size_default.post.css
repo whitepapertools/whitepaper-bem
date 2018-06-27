@@ -22,7 +22,7 @@ $line-height-typo-xxxxl: 62px;
 $line-height-typo-xxxxxl: 82px;
 $line-height-typo-xxxxxxl: 115px;
 
-:root {
+.theme_size_default {
   /* Размер текста */
   --size-typo-xs: $size-typo-xs;
   --size-typo-s: $size-typo-s;

@@ -102,7 +102,7 @@ $font-sans: "MuseoSansRegular", Helvetica, Arial, sans-serif;
 $font-serif: Georgia, serif;
 $font-mono: monospace;
 
-:root {
+.theme_font_museo {
   --font-sans: "MuseoSans", Helvetica, Arial, sans-serif;
   --font-serif: Georgia, serif;
   --font-mono: monospace;
