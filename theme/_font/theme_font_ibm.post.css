@@ -839,7 +839,7 @@ $font-sans: "ibm-plex-sans", Helvetica, Arial, sans-serif;
 $font-serif: "ibm-plex-serif", Georgia, serif;
 $font-mono: "ibm-plex-mono", monospace;
 
-:root {
+.theme_font_ibm {
   --font-sans: "ibm-plex-sans", Helvetica, Arial, sans-serif;
   --font-serif: "ibm-plex-serif", Georgia, serif;
   --font-mono: "ibm-plex-mono", monospace;
