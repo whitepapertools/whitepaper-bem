@@ -1,5 +1,0 @@
-@media screen and (min-width: $screen-m) and (max-width: $screen-m) {
-	.tpl-grid__fraction_s-col_9 {
-		grid-column: span 9;
-	}
-}
