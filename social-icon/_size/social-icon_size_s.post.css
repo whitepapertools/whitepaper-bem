@@ -1,0 +1,45 @@
+.social-icon_size_l {
+	width: 48px;
+	height: 48px;
+	&.social-icon {
+		&_round {
+			&_facebook-primary,
+			&_facebook-inverse,
+			&_facebook-default {
+				padding: var(--space-s);
+			}
+			&_instagram-primary,
+			&_instagram-inverse,
+			&_instagram-default {
+				padding: var(--space-s);
+			}
+			&_ok-primary,
+			&_ok-inverse,
+			&_ok-default {
+				padding: var(--space-s);
+			}
+			&_telegram-primary,
+			&_telegram-inverse,
+			&_telegram-default {
+				padding: var(--space-s);
+			}
+			&_twitter-primary,
+			&_twitter-inverse,
+			&_twitter-default {
+				padding: var(--space-s);
+			}
+			&_vk-primary,
+			&_vk-inverse,
+			&_vk-default {
+				padding: var(--space-s);
+			}
+			&_ya-primary,
+			&_ya-inverse,
+			&_ya-default {
+				padding: var(--space-s);
+			}
+		}
+	}
+}
+
+
