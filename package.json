@@ -1,6 +1,6 @@
 {
   "name": "whitepaper-bem",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/whitepapertools/whitepaper-bem.git"
   },
-  "author": "White Paper Tools",
+  "author": "whitepaper tools",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/whitepapertools/whitepaper-bem/issues"
