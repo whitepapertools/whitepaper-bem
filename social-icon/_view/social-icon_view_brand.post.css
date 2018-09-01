@@ -22,6 +22,10 @@
 	fill: #1DA1F2;
 }
 
+.social-icon_name_facebook.social-icon_view_brand svg {
+	fill: #3B5998;
+}
+
 .social-icon_name_ya.social-icon_view_brand svg {
 	fill: #ff0000;
 }
