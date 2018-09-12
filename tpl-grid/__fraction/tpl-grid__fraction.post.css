@@ -1,0 +1,134 @@
+.tpl-grid__fraction { min-width: 0; }
+
+.tpl-grid__fraction_xs-col {
+	&_1 { grid-column: span 1; }
+	&_2 { grid-column: span 2; }
+	&_3 { grid-column: span 3; }
+}
+@media screen and (max-width: $screen-xs-max) {
+	.tpl-grid__fraction_xs-order {
+		&_-1 { order: -1; }
+		&_0 { order: 0; }
+		&_1 { order: 1; }
+	}
+	.tpl-grid__fraction_xs-row {
+		&_1 { grid-row: span 1; }
+		&_2 { grid-row: span 2; }
+		&_3 { grid-row: span 3; }
+	}
+}
+
+@media screen and (max-width: $screen-s) {
+	.tpl-grid__fraction_xs-col_hidden {
+		display: none;
+	}
+}
+@media screen and (max-width: $screen-s-max) {
+	.tpl-grid__fraction_s-col_hidden {
+		display: none;
+	}
+	.tpl-grid__fraction_s-order {
+		&_-1 { order: -1; }
+		&_0 { order: 0; }
+		&_1 { order: 1; }
+	}
+}
+@media screen and (min-width: $screen-s) {
+	.tpl-grid__fraction_s-col {
+		&_1 { grid-column: span 1; }
+		&_2 { grid-column: span 2; }
+		&_3 { grid-column: span 3; }
+		&_4 { grid-column: span 4; }
+		&_5 { grid-column: span 5; }
+		&_6 { grid-column: span 6; }
+		&_7 { grid-column: span 7; }
+		&_8 { grid-column: span 8; }
+		&_9 { grid-column: span 9; }
+		&_10 { grid-column: span 10; }
+		&_11 { grid-column: span 11; }
+		&_12 { grid-column: span 12; }
+	}
+	.tpl-grid__fraction_s-row {
+		&_1 { grid-row: span 1; }
+		&_2 { grid-row: span 2; }
+		&_3 { grid-row: span 3; }
+	}
+}
+@media screen and (min-width: $screen-m) {
+	.tpl-grid__fraction_m-col {
+		&_1 { grid-column: span 1; }
+		&_2 { grid-column: span 2; }
+		&_3 { grid-column: span 3; }
+		&_4 { grid-column: span 4; }
+		&_5 { grid-column: span 5; }
+		&_6 { grid-column: span 6; }
+		&_7 { grid-column: span 7; }
+		&_8 { grid-column: span 8; }
+		&_9 { grid-column: span 9; }
+		&_10 { grid-column: span 10; }
+		&_11 { grid-column: span 11; }
+		&_12 { grid-column: span 12; }
+	}
+	.tpl-grid__fraction_m-row {
+		&_1 { grid-row: span 1; }
+		&_2 { grid-row: span 2; }
+		&_3 { grid-row: span 3; }
+	}
+	.tpl-grid__fraction_m-order {
+		&_-1 { order: -1; }
+		&_0 { order: 0; }
+		&_1 { order: 1; }
+	}
+}
+@media screen and (min-width: $screen-l) {
+	.tpl-grid__fraction_l-col {
+		&_1 { grid-column: span 1; }
+		&_2 { grid-column: span 2; }
+		&_3 { grid-column: span 3; }
+		&_4 { grid-column: span 4; }
+		&_5 { grid-column: span 5; }
+		&_6 { grid-column: span 6; }
+		&_7 { grid-column: span 7; }
+		&_8 { grid-column: span 8; }
+		&_9 { grid-column: span 9; }
+		&_10 { grid-column: span 10; }
+		&_11 { grid-column: span 11; }
+		&_12 { grid-column: span 12; }
+	}
+	.tpl-grid__fraction_l-row {
+		&_1 { grid-row: span 1; }
+		&_2 { grid-row: span 2; }
+		&_3 { grid-row: span 3; }
+	}
+	.tpl-grid__fraction_l-order {
+		&_-1 { order: -1; }
+		&_0 { order: 0; }
+		&_1 { order: 1; }
+	}
+}
+@media screen and (min-width: $screen-xl) {
+	.tpl-grid__fraction_xl-col {
+		&_1 { grid-column: span 1; }
+		&_2 { grid-column: span 2; }
+		&_3 { grid-column: span 3; }
+		&_4 { grid-column: span 4; }
+		&_5 { grid-column: span 5; }
+		&_6 { grid-column: span 6; }
+		&_7 { grid-column: span 7; }
+		&_8 { grid-column: span 8; }
+		&_9 { grid-column: span 9; }
+		&_10 { grid-column: span 10; }
+		&_11 { grid-column: span 11; }
+		&_12 { grid-column: span 12; }
+	}
+	.tpl-grid__fraction_xl-row {
+		&_1 { grid-row: span 1; }
+		&_2 { grid-row: span 2; }
+		&_3 { grid-row: span 3; }
+	}
+	.tpl-grid__fraction_xl-order {
+		&_-1 { order: -1; }
+		&_0 { order: 0; }
+		&_1 { order: 1; }
+	}
+}
