@@ -5,6 +5,7 @@
 	flex-wrap: nowrap;
 	margin-top: var(--space-xs);
 	transition: background-color 0.5s ease-out;
+
 	&:first-child {
 		margin-top: 0;
 	}

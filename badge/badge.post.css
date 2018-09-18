@@ -9,11 +9,11 @@
 	border-radius: 99em;
 	font-size: var(--size-typo-s);
 	font-weight: 500;
-	font-face: $font-sans;
+	font-family: $font-sans;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 
-	&:before {
+	&::before {
 		content: '';
 		position: absolute;
 		left: 0;

@@ -1,5 +1,5 @@
 /* Базовые цвета от которых выстраивается вся политра */
-$color-base-base: #fff; /* hsl(0, 0%, 0%) Базовый цвет содержимого, от которого выстраиваются цвета текста, иконок, ...*/
+$color-base-base: #fff; /* hsl(0, 0%, 0%) Базовый цвет содержимого, от которого выстраиваются цвета текста, иконок, ... */
 $color-base-essential: #0070f0; /* hsl(0, 0%, 100%) Базовый цвет поверхностей */
 $color-base-project: #fff; /* hsl(211, 100%, 35%) Проектный цвет, от которого выстраивают акцентные состояния */
 $color-base-phantom: #0056b3; /* hsl(40, 14%, 96%) Тонирующий цвет, от которого выстраиватся бордеры, паранджа, ... */
@@ -46,9 +46,7 @@ $color-link-external: $color-base-path; /* Цвет дополнительной
 $color-link-minor: color($color-base-path h(+22) s(-80%) l(+13%)); /* Цвет второстепенной ссылки */
 $color-link-hover: color($color-base-path l(-7%)); /* Цвет ховера ссылки */
 
-
 .theme_color_whitepaper-brand {
-
 	/* Цвета блоков */
 	--color-bg-brand: $color-bg-brand; /* Цвет фона брендированый */
 	--color-bg-action: $color-bg-action; /* Цвет фона действия */
@@ -83,5 +81,4 @@ $color-link-hover: color($color-base-path l(-7%)); /* Цвет ховера сс
 	--color-link-external: $color-link-external; /* Цвет дополнительной ссылки */
 	--color-link-minor: $color-link-minor; /* Цвет второстепенной ссылки */
 	--color-link-hover: $color-link-hover; /* Цвет ховера ссылки */
-	
 }

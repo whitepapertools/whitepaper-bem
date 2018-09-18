@@ -1,7 +1,7 @@
 .badge_view_default {
 	color: var(--color-typo-secondary);
-	
-	&:before {
+
+	&::before {
 		background: var(--color-bg-ghost);
 	}
 }

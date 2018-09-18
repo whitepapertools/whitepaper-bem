@@ -4,6 +4,7 @@
 	border-radius: var(--space-m);
 	font-size: var(--size-typo-s);
 	line-height: var(--line-height-typo-s);
+
 	& .pt-tag__delete {
 		margin: 0 calc(-1 * var(--space-xxs)) 0 var(--space-xxs);
 		cursor: pointer;

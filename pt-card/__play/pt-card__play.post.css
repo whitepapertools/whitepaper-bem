@@ -9,6 +9,7 @@
 	border-bottom: var(--space-l) solid transparent;
 	border-left: var(--space-xxl) solid var(--color-bg-default);
 	cursor: pointer;
+
 	&:hover {
 		border-left: var(--space-xxl) solid var(--color-bg-action);
 	}

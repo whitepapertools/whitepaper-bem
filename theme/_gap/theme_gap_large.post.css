@@ -7,7 +7,6 @@ $col-gap-half: $space-xxxxl;
 $col-gap-two-thirds: $space-xxxxxl;
 $col-gap-full: $space-xxxxxxl;
 
-
 .theme_gap_large {
 	/* Размеры отступа у контента */
 	--gap: var(--space-xxxxxxl);
