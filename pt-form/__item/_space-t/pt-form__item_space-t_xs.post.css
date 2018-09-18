@@ -1,6 +1,7 @@
 .pt-form__item_space-t_xs {
 	padding-top: var(--space-xs);
+
 	&:first-child {
-		padding-top: 0px;
+		padding-top: 0;
 	}
 }

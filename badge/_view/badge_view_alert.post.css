@@ -1,7 +1,7 @@
 .badge_view_alert {
 	color: var(--color-typo-alert);
 
-	&:before {
+	&::before {
 		background: var(--color-bg-alert);
 		opacity: 0.15;
 	}

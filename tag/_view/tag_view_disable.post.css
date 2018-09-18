@@ -1,6 +1,7 @@
 .tag_view_disable {
 	color: var(--color-typo-ghost);
 	background: var(--color-bg-ghost);
+
 	.pt-tag__delete {
 		cursor: default;
 	}
