@@ -3,7 +3,7 @@
 }
 
 .social-icon_name_dribbble.social-icon_view_brand svg {
-	fill: #ea4c89;
+	fill: #EA4C89;
 }
 
 .social-icon_name_github.social-icon_view_brand svg {
@@ -11,18 +11,22 @@
 }
 
 .social-icon_name_ok.social-icon_view_brand svg {
-	fill: #ee8208;
+	fill: #EE8208;
 }
 
 .social-icon_name_telegram.social-icon_view_brand svg {
-	fill: #299ed7;
+	fill: #299ED7;
 }
 
 .social-icon_name_twitter.social-icon_view_brand svg {
-	fill: #1da1f2;
+	fill: #1DA1F2;
+}
+
+.social-icon_name_facebook.social-icon_view_brand svg {
+	fill: #3B5998;
 }
 
 .social-icon_name_ya.social-icon_view_brand svg {
-	fill: #f00;
+	fill: #ff0000;
 }
-
+ 
