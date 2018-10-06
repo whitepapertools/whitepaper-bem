@@ -1,6 +1,8 @@
 # whitepaper-bem
 
-[![release](http://github-release-version.herokuapp.com/github/allure-framework/allure-core/release.svg?style=flat)](https://github.com/whitepapertools/whitepaper-bem/releases/latest)
+[![license](https://badgen.net/github/license/whitepapertools/whitepaper-bem)](https://github.com/whitepapertools/whitepaper-bem/blob/master/LICENSE)
+[![npm version](https://badgen.net/npm/v/whitepaper-bem)](https://www.npmjs.com/package/whitepaper-bem)
+[![release](https://badgen.net/github/release/whitepapertools/whitepaper-bem)](https://github.com/whitepapertools/whitepaper-bem/releases/latest)
 
 
 ## Установка
