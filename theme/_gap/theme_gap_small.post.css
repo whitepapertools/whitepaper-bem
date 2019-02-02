@@ -1,19 +1,26 @@
-/* Размеры отступа у контента */
-$gap: $space-xxxxl;
+@import "../_breakpoint/theme_breakpoint_default.post.css";
 
-/* Размеры отступов в колонках */
-$col-gap-third: $space-m;
-$col-gap-half: $space-xl;
-$col-gap-two-thirds: $space-xxxl;
-$col-gap-full: $space-xxxxl;
+:root {
+ /* Размеры отступа у контента */
+ --gap: $space-s;
 
-.theme_gap_small {
-	/* Размеры отступа у контента */
-	--gap: var(--space-xxxxl);
+ /* Размеры отступов в колонках */
+ --col-gap-third: calc(var(--gap) * 0.33);
+ --col-gap-half: calc(var(--gap) * 0.5);
+ --col-gap-two-thirds: calc(var(--gap) * 0.66);
+ --col-gap-full: var(--gap);
+ --col-gap-2x: calc(var(--gap) * 2);
+ --col-gap-3x: calc(var(--gap) * 3);
+}
 
-	/* Размеры отступов в колонках */
-	--col-gap-third: var(--space-m);
-	--col-gap-half: var(--space-xl);
-	--col-gap-two-thirds: var(--space-xxxl);
-	--col-gap-full: var(--space-xxxxl);
+@media screen and (min-width: $screen-s) {
+ :root { --gap: $space-l; }
+}
+
+@media screen and (min-width: $screen-m) {
+ :root { --gap: $space-xl; }
+}
+
+@media screen and (min-width: $screen-l) {
+ :root { --gap: $space-xxl; }
 }

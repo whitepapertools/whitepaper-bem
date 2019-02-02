@@ -1,19 +1,26 @@
-/* Размеры отступа у контента */
-$gap: $space-xxxxxl;
+@import "../_breakpoint/theme_breakpoint_default.post.css";
 
-/* Размеры отступа в колонках */
-$col-gap-third: $space-xl;
-$col-gap-half: $space-xxxl;
-$col-gap-two-thirds: $space-xxxxl;
-$col-gap-full: $space-xxxxxl;
-
-.theme_gap_medium {
+:root {
 	/* Размеры отступа у контента */
-	--gap: var(--space-xxxxxl);
+	--gap: $space-m;
 
 	/* Размеры отступов в колонках */
-	--col-gap-third: var(--space-xl);
-	--col-gap-half: var(--space-xxxl);
-	--col-gap-two-thirds: var(--space-xxxxl);
-	--col-gap-full: var(--space-xxxxxl);
+	--col-gap-third: calc(var(--gap) * 0.33);
+	--col-gap-half: calc(var(--gap) * 0.5);
+	--col-gap-two-thirds: calc(var(--gap) * 0.66);
+	--col-gap-full: var(--gap);
+	--col-gap-2x: calc(var(--gap) * 2);
+	--col-gap-3x: calc(var(--gap) * 3);
+}
+
+@media screen and (min-width: $screen-s) {
+	:root { --gap: $space-xxl; }
+}
+
+@media screen and (min-width: $screen-m) {
+	:root { --gap: $space-xxxl; }
+}
+
+@media screen and (min-width: $screen-l) {
+	:root { --gap: $space-xxxxl; }
 }
