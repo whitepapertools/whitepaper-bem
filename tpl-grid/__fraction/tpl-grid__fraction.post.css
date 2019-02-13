@@ -1,3 +1,5 @@
+@import "../../theme/_breakpoint/theme_breakpoint_default.post.css";
+
 .tpl-grid__fraction { min-width: 0; }
 
 .tpl-grid__fraction_xs-col {
@@ -5,34 +7,17 @@
 	&_2 { grid-column: span 2; }
 	&_3 { grid-column: span 3; }
 }
-@media screen and (max-width: $screen-xs-max) {
-	.tpl-grid__fraction_xs-order {
-		&_-1 { order: -1; }
-		&_0 { order: 0; }
-		&_1 { order: 1; }
-	}
-	.tpl-grid__fraction_xs-row {
-		&_1 { grid-row: span 1; }
-		&_2 { grid-row: span 2; }
-		&_3 { grid-row: span 3; }
-	}
+.tpl-grid__fraction_xs-order {
+	&_-1 { order: -1; }
+	&_0 { order: 0; }
+	&_1 { order: 1; }
+}
+.tpl-grid__fraction_xs-row {
+	&_1 { grid-row: span 1; }
+	&_2 { grid-row: span 2; }
+	&_3 { grid-row: span 3; }
 }
 
-@media screen and (max-width: $screen-s) {
-	.tpl-grid__fraction_xs-col_hidden {
-		display: none;
-	}
-}
-@media screen and (max-width: $screen-s-max) {
-	.tpl-grid__fraction_s-col_hidden {
-		display: none;
-	}
-	.tpl-grid__fraction_s-order {
-		&_-1 { order: -1; }
-		&_0 { order: 0; }
-		&_1 { order: 1; }
-	}
-}
 @media screen and (min-width: $screen-s) {
 	.tpl-grid__fraction_s-col {
 		&_1 { grid-column: span 1; }
@@ -52,6 +37,11 @@
 		&_1 { grid-row: span 1; }
 		&_2 { grid-row: span 2; }
 		&_3 { grid-row: span 3; }
+	}
+	.tpl-grid__fraction_s-order {
+		&_-1 { order: -1; }
+		&_0 { order: 0; }
+		&_1 { order: 1; }
 	}
 }
 @media screen and (min-width: $screen-m) {
@@ -130,5 +120,37 @@
 		&_-1 { order: -1; }
 		&_0 { order: 0; }
 		&_1 { order: 1; }
+	}
+}
+
+
+/* Скрытие */
+@media screen and (max-width: $screen-xs-max) {
+	.tpl-grid__fraction_xs-col_hidden {
+		display: none;
+	}
+}
+
+@media screen and (min-width: $screen-s) and (max-width: $screen-s-max) {
+	.tpl-grid__fraction_s-col_hidden {
+		display: none;
+	}
+}
+
+@media screen and (min-width: $screen-m) and (max-width: $screen-m-max) {
+	.tpl-grid__fraction_m-col_hidden {
+		display: none;
+	}
+}
+
+@media screen and (min-width: $screen-l) and (max-width: $screen-l-max) {
+	.tpl-grid__fraction_l-col_hidden {
+		display: none;
+	}
+}
+
+@media screen and (min-width: $screen-xl) and (max-width: $screen-xl-max) {
+	.tpl-grid__fraction_xl	-col_hidden {
+		display: none;
 	}
 }
