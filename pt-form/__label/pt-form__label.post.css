@@ -2,3 +2,10 @@
 	width: 35%;
 	flex-shrink: 0;
 }
+
+@media screen and (max-width: 719px) {
+	.pt-form__label {
+		width: auto;
+		margin-bottom: var(--space-2xs);
+	}
+}
