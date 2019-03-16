@@ -1,0 +1,3 @@
+.pt-list__item_indent-b_4xl:not(:last-child) {
+	margin-bottom: var(--space-4xl);
+}

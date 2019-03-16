@@ -1,7 +1,3 @@
-.pt-form__item_space-t_xl {
+.pt-form__item_space-t_xl:not(:last-child) {
 	padding-top: var(--space-xl);
-
-	&:first-child {
-		padding-top: 0;
-	}
 }

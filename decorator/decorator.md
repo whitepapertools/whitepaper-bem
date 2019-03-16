@@ -11,18 +11,18 @@
 
 Модификаторы decorator | Значение                                                                 | Описание
 ---------------------- | ------------------------------------------------------------------------ | ----------------
-space-a                | xxxs / xxs / xs / s / m / l / xl / xxl / xxxl / xxxxl / xxxxxl / xxxxxxl | Внутренний отступ со всех сторон
-space-v                | xxxs / xxs / xs / s / m / l / xl / xxl / xxxl / xxxxl / xxxxxl / xxxxxxl | Внутренний отступ по вертикали
-space-h                | xxxs / xxs / xs / s / m / l / xl / xxl / xxxl / xxxxl / xxxxxl / xxxxxxl | Внутренний отступ по горизонтали
-space-t                | xxxs / xxs / xs / s / m / l / xl / xxl / xxxl / xxxxl / xxxxxl / xxxxxxl | Внутренний отступ сверху
-space-r                | xxxs / xxs / xs / s / m / l / xl / xxl / xxxl / xxxxl / xxxxxl / xxxxxxl | Внутренний отступ справа
-space-b                | xxxs / xxs / xs / s / m / l / xl / xxl / xxxl / xxxxl / xxxxxl / xxxxxxl | Внутренний отступ снизу
-space-l                | xxxs / xxs / xs / s / m / l / xl / xxl / xxxl / xxxxl / xxxxxl / xxxxxxl | Внутренний отступ слева
-indent-a               | xxxs / xxs / xs / s / m / l / xl / xxl / xxxl / xxxxl / xxxxxl / xxxxxxl | Внешний отступ со всех сторон
-indent-v               | xxxs / xxs / xs / s / m / l / xl / xxl / xxxl / xxxxl / xxxxxl / xxxxxxl | Внешний отступ по вертикали
+space-a                | 3xs / 2xs / xs / s / m / l / xl / 2xl / 3xl / 4xl / 5xl / 6xl | Внутренний отступ со всех сторон
+space-v                | 3xs / 2xs / xs / s / m / l / xl / 2xl / 3xl / 4xl / 5xl / 6xl | Внутренний отступ по вертикали
+space-h                | 3xs / 2xs / xs / s / m / l / xl / 2xl / 3xl / 4xl / 5xl / 6xl | Внутренний отступ по горизонтали
+space-t                | 3xs / 2xs / xs / s / m / l / xl / 2xl / 3xl / 4xl / 5xl / 6xl | Внутренний отступ сверху
+space-r                | 3xs / 2xs / xs / s / m / l / xl / 2xl / 3xl / 4xl / 5xl / 6xl | Внутренний отступ справа
+space-b                | 3xs / 2xs / xs / s / m / l / xl / 2xl / 3xl / 4xl / 5xl / 6xl | Внутренний отступ снизу
+space-l                | 3xs / 2xs / xs / s / m / l / xl / 2xl / 3xl / 4xl / 5xl / 6xl | Внутренний отступ слева
+indent-a               | 3xs / 2xs / xs / s / m / l / xl / 2xl / 3xl / 4xl / 5xl / 6xl | Внешний отступ со всех сторон
+indent-v               | 3xs / 2xs / xs / s / m / l / xl / 2xl / 3xl / 4xl / 5xl / 6xl | Внешний отступ по вертикали
 indent-h               | auto                                                                     | Ценртирование блока по горизонтали
-indent-h               | xxxs / xxs / xs / s / m / l / xl / xxl / xxxl / xxxxl / xxxxxl / xxxxxxl | Внешний отступ по горизонтали
-indent-t               | xxxs / xxs / xs / s / m / l / xl / xxl / xxxl / xxxxl / xxxxxl / xxxxxxl | Внешний отступ сверху
-indent-r               | xxxs / xxs / xs / s / m / l / xl / xxl / xxxl / xxxxl / xxxxxl / xxxxxxl | Внешний отступ справа
-indent-b               | xxxs / xxs / xs / s / m / l / xl / xxl / xxxl / xxxxl / xxxxxl / xxxxxxl | Внешний отступ снизу
-indent-l               | xxxs / xxs / xs / s / m / l / xl / xxl / xxxl / xxxxl / xxxxxl / xxxxxxl | Внешний отступ слева
+indent-h               | 3xs / 2xs / xs / s / m / l / xl / 2xl / 3xl / 4xl / 5xl / 6xl | Внешний отступ по горизонтали
+indent-t               | 3xs / 2xs / xs / s / m / l / xl / 2xl / 3xl / 4xl / 5xl / 6xl | Внешний отступ сверху
+indent-r               | 3xs / 2xs / xs / s / m / l / xl / 2xl / 3xl / 4xl / 5xl / 6xl | Внешний отступ справа
+indent-b               | 3xs / 2xs / xs / s / m / l / xl / 2xl / 3xl / 4xl / 5xl / 6xl | Внешний отступ снизу
+indent-l               | 3xs / 2xs / xs / s / m / l / xl / 2xl / 3xl / 4xl / 5xl / 6xl | Внешний отступ слева

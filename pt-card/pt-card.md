@@ -34,9 +34,9 @@ view        | default
 Модификаторы `pt-card__header` | Значение
 ------------------------------ | -------------------------
 align                          | center / right
-space-a                        | xs / s / m / l / xl / xxl
-space-h                        | xs / s / m / l / xl / xxl
-space-v                        | xs / s / m / l / xl / xxl
+space-a                        | xs / s / m / l / xl / 2xl
+space-h                        | xs / s / m / l / xl / 2xl
+space-v                        | xs / s / m / l / xl / 2xl
 
 ## Элемент content
 
@@ -46,13 +46,13 @@ space-v                        | xs / s / m / l / xl / xxl
 ------------------------------- | -------------------------
 align                           | center
 vertical-align                  | center
-space-a                         | xs / s / m / l / xl / xxl
-space-h                         | xs / s / m / l / xl / xxl
-space-v                         | xs / s / m / l / xl / xxl
-space-t                         | xs / s / m / l / xl / xxl
-space-r                         | xs / s / m / l / xl / xxl
-space-b                         | xs / s / m / l / xl / xxl
-space-l                         | xs / s / m / l / xl / xxl
+space-a                         | xs / s / m / l / xl / 2xl
+space-h                         | xs / s / m / l / xl / 2xl
+space-v                         | xs / s / m / l / xl / 2xl
+space-t                         | xs / s / m / l / xl / 2xl
+space-r                         | xs / s / m / l / xl / 2xl
+space-b                         | xs / s / m / l / xl / 2xl
+space-l                         | xs / s / m / l / xl / 2xl
 
 ## Элемент footer
 
@@ -62,9 +62,9 @@ space-l                         | xs / s / m / l / xl / xxl
 ------------------------------- | -------------------------
 align                           | center / top / bottom
 distribute                      | right / between
-space-a                         | xs / s / m / l / xl / xxl
-space-h                         | xs / s / m / l / xl / xxl
-space-v                         | xs / s / m / l / xl / xxl
+space-a                         | xs / s / m / l / xl / 2xl
+space-h                         | xs / s / m / l / xl / 2xl
+space-v                         | xs / s / m / l / xl / 2xl
 
 ## Элемент image
 

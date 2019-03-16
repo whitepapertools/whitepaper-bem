@@ -1,0 +1,3 @@
+.pt-form__item_indent-b_2xl:not(:last-child) {
+	margin-bottom: var(--space-2xl);
+}

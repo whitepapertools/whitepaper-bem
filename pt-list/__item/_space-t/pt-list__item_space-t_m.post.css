@@ -1,7 +1,3 @@
-.pt-list__item_space-t_m {
+.pt-list__item_space-t_m:not(:first-child) {
 	padding-top: var(--space-m);
-
-	&:first-child {
-		padding-top: 0;
-	}
 }
