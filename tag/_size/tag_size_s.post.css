@@ -1,12 +1,12 @@
 .tag_size_s {
-	height: calc(var(--space-xl) + var(--space-xxs));
+	height: calc(var(--space-xl) + var(--space-2xs));
 	padding: 0 var(--space-s);
-	border-radius: var(--space-m);
+	border-radius: var(--radius-m);
 	font-size: var(--size-typo-s);
 	line-height: var(--line-height-typo-s);
 
 	& .pt-tag__delete {
-		margin: 0 calc(-1 * var(--space-xxs)) 0 var(--space-xxs);
+		margin: 0 calc(-1 * var(--space-2xs)) 0 var(--space-2xs);
 		cursor: pointer;
 	}
 }
