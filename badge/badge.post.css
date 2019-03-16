@@ -9,7 +9,6 @@
 	border-radius: 99em;
 	font-size: var(--size-typo-s);
 	font-weight: 500;
-	font-family: $font-sans;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 
