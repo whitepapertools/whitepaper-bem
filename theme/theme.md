@@ -62,6 +62,7 @@ gap                | large / medium / small                                     
 menu               | default                                                    | размер бокового меню
 size               | default                                                    | размеры и высоты строк типографики
 space              | default                                                    | размеры отступов
+control            | whitepaper-brand / whitepaper-default / whitepaper-inverse | цветовая схема
 
 ## Новая тема
 
