@@ -11,14 +11,14 @@
 	--col-gap-full: var(--gap);
 
 	@media screen and (min-width: $screen-s) {
-		--gap: $space-l;
+		--gap: var(--space-l);
 	}
 
 	@media screen and (min-width: $screen-m) {
-		--gap: $space-xl;
+		--gap: var(--space-xl);
 	}
 
 	@media screen and (min-width: $screen-l) {
-		--gap: $space-xxl;
+		--gap: var(--space-xxl);
 	}
 }
