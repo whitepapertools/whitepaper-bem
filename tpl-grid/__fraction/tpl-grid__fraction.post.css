@@ -150,7 +150,7 @@
 }
 
 @media screen and (min-width: $screen-xl) and (max-width: $screen-xl-max) {
-	.tpl-grid__fraction_xl	-col_hidden {
+	.tpl-grid__fraction_xl-col_hidden {
 		display: none;
 	}
 }
