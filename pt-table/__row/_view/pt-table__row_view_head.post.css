@@ -4,8 +4,4 @@
 	&:hover {
 		background: transparent;
 	}
-
-	& + .pt-table__row {
-		margin-top: 0;
-	}
 }

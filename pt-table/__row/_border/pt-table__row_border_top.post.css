@@ -1,7 +1,0 @@
-.pt-table__row_border_top {
-	margin-top: 0;
-
-	&:not(:last-child) {
-		border-top: 1px solid var(--color-bg-border);
-	}
-}
