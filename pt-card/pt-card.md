@@ -60,8 +60,8 @@ space-l                         | xs / s / m / l / xl / xxl
 
 Модификаторы элемента `footer`  | Значение
 ------------------------------- | -------------------------
-align                           | center / top / bottom
-distribute                      | right / between
+vertical-align                  | center / top / bottom
+distribute                      | right / between / center
 space-a                         | xs / s / m / l / xl / xxl
 space-h                         | xs / s / m / l / xl / xxl
 space-v                         | xs / s / m / l / xl / xxl
@@ -72,7 +72,6 @@ space-v                         | xs / s / m / l / xl / xxl
 
 Модификаторы элемента `image` | Значение
 ----------------------------- | -------------
-shadow                        | bottom / top
 size                          | cover
 
 ## Элемент play
