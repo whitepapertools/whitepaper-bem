@@ -1,1 +1,0 @@
-block('icon').mod('name', 'repeat-song').mod('size', 's')({content: { html: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill-rule="evenodd" d="M3 8V5a2 2 0 0 1 2-2h6V1l4 3-4 3V5H5v3H3zm10 0v3a2 2 0 0 1-2 2H5v2l-4-3 4-3v2h6V8h2z"/></svg>' }});

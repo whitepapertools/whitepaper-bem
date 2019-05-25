@@ -2,3 +2,9 @@
 	display: flex;
 	align-items: center;
 }
+
+@media screen and (max-width: 719px) {
+	.pt-form__item_vertical-align_center {
+		display: block;
+	}
+}

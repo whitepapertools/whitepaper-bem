@@ -1,8 +1,0 @@
-.pt-table__row_border_top {
-	margin-top: 0;
-	border-top: 1px solid var(--color-bg-border);
-
-	&:first-child {
-		border-top: none;
-	}
-}

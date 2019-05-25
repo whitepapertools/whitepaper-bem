@@ -2,3 +2,9 @@
 	display: flex;
 	justify-content: flex-end;
 }
+
+@media screen and (max-width: 719px) {
+	.pt-form__item_distribute_right {
+		display: block;
+	}
+}

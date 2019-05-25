@@ -2,6 +2,6 @@
 	align-items: flex-end;
 
 	.pt-icon-plus__icon {
-		margin-top: var(--space-xxxs);
+		margin-top: var(--space-3xs);
 	}
 }

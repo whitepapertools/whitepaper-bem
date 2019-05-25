@@ -1,7 +1,3 @@
-.pt-list__item_indent-t_s {
+.pt-list__item_indent-t_s:not(:first-child) {
 	margin-top: var(--space-s);
-
-	&:first-child {
-		margin-top: 0;
-	}
 }

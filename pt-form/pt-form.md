@@ -33,20 +33,20 @@ view         | default / ghost | Фон
 border                       | all / bottom / top               | Обводка
 distribute                   | default / between / right        | Распределение контента по горизонтали
 vertical-align               | default / center / baseline      | Выравнивание конента по вертикали
-indent-a                     | xs / s / m / l / xl / xxl / xxxl | Внешние отступы по всем сторонам
-indent-h                     | xs / s / m / l / xl / xxl / xxxl | Внешние отступы по горизонтали
-indent-v                     | xs / s / m / l / xl / xxl / xxxl | Внешние отступы по вертикали
-indent-t                     | xs / s / m / l / xl / xxl / xxxl | Внешний отступ сверху
-indent-r                     | xs / s / m / l / xl / xxl / xxxl | Внешний отступ справа
-indent-b                     | xs / s / m / l / xl / xxl / xxxl | Внешний отступ снизу
-indent-l                     | xs / s / m / l / xl / xxl / xxxl | Внешний отступ слева
-space-a                      | xs / s / m / l / xl / xxl / xxxl | Внутренние отступы по всем сторонам
-space-h                      | xs / s / m / l / xl / xxl / xxxl | Внутренние отступы по горизонтали
-space-v                      | xs / s / m / l / xl / xxl / xxxl | Внутренние отступы по вертикали
-space-t                      | xs / s / m / l / xl / xxl / xxxl | Внутренний отступ сверху
-space-r                      | xs / s / m / l / xl / xxl / xxxl | Внутренний отступ справа
-space-b                      | xs / s / m / l / xl / xxl / xxxl | Внутренний отступ внизу
-space-l                      | xs / s / m / l / xl / xxl / xxxl | Внутренний отступ слева
+indent-a                     | xs / s / m / l / xl / 2xl / 3xl | Внешние отступы по всем сторонам
+indent-h                     | xs / s / m / l / xl / 2xl / 3xl | Внешние отступы по горизонтали
+indent-v                     | xs / s / m / l / xl / 2xl / 3xl | Внешние отступы по вертикали
+indent-t                     | xs / s / m / l / xl / 2xl / 3xl | Внешний отступ сверху
+indent-r                     | xs / s / m / l / xl / 2xl / 3xl | Внешний отступ справа
+indent-b                     | xs / s / m / l / xl / 2xl / 3xl | Внешний отступ снизу
+indent-l                     | xs / s / m / l / xl / 2xl / 3xl | Внешний отступ слева
+space-a                      | xs / s / m / l / xl / 2xl / 3xl | Внутренние отступы по всем сторонам
+space-h                      | xs / s / m / l / xl / 2xl / 3xl | Внутренние отступы по горизонтали
+space-v                      | xs / s / m / l / xl / 2xl / 3xl | Внутренние отступы по вертикали
+space-t                      | xs / s / m / l / xl / 2xl / 3xl | Внутренний отступ сверху
+space-r                      | xs / s / m / l / xl / 2xl / 3xl | Внутренний отступ справа
+space-b                      | xs / s / m / l / xl / 2xl / 3xl | Внутренний отступ внизу
+space-l                      | xs / s / m / l / xl / 2xl / 3xl | Внутренний отступ слева
 
 ## Элементы label и controls
 
