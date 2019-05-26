@@ -1,7 +1,0 @@
-.pt-list__item_space-b_xs {
-	padding-bottom: var(--space-xs);
-
-	&:last-child {
-		padding-bottom: 0;
-	}
-}

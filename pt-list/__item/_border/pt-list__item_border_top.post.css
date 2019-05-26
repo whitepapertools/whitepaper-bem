@@ -1,7 +1,0 @@
-.pt-list__item_border_top {
-	border-top: 1px solid var(--color-bg-border);
-
-	&:first-child {
-		border-top: none;
-	}
-}

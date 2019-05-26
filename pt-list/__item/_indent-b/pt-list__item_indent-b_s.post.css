@@ -1,7 +1,0 @@
-.pt-list__item_indent-b_s {
-	margin-bottom: var(--space-s);
-
-	&:last-child {
-		margin-bottom: 0;
-	}
-}
