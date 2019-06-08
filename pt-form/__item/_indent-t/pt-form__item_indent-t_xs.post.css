@@ -1,3 +1,0 @@
-.pt-form__item_indent-t_xs:not(:first-child) {
-	margin-top: var(--space-xs);
-}

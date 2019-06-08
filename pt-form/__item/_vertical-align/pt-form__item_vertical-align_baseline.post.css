@@ -3,7 +3,7 @@
 	align-items: baseline;
 }
 
-@media screen and (max-width: 719px) {
+@media screen and (max-width: $screen-xs-max) {
 	.pt-form__item_vertical-align_baseline {
 		display: block;
 	}
