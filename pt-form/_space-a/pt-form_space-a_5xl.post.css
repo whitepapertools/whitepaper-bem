@@ -2,6 +2,11 @@
 	padding: var(--space-5xl);
 }
 
+.pt-form_space-a_5xl .pt-form__section {
+	padding-left: var(--space-5xl);
+	padding-right: var(--space-5xl);
+}
+
 .pt-form_space-a_5xl .pt-form__item:not(.pt-form_bordered):first-child {
 	padding-top: 0;
 }
