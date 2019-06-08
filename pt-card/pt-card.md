@@ -72,5 +72,4 @@ space-v                         | xs / s / m / l / xl / 2xl
 
 Модификаторы элемента `image` | Значение
 ----------------------------- | -------------
-shadow                        | bottom / top
 size                          | cover
