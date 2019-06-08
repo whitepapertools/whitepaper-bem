@@ -1,6 +1,6 @@
 .social-icon_size_m {
-	width: 32px;
-	height: 32px;
+	width: var(--graphics-size-l);
+	height: var(--graphics-size-l);
 }
 
 

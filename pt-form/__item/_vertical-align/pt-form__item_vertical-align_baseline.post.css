@@ -2,3 +2,9 @@
 	display: flex;
 	align-items: baseline;
 }
+
+@media screen and (max-width: 719px) {
+	.pt-form__item_vertical-align_baseline {
+		display: block;
+	}
+}

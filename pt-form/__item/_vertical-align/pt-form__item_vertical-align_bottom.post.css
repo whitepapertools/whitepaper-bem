@@ -1,0 +1,10 @@
+.pt-form__item_distribute_bottom {
+	display: flex;
+	align-items: flex-end;
+}
+
+@media screen and (max-width: 719px) {
+	.pt-form__item_distribute_bottom {
+		display: block;
+	}
+}

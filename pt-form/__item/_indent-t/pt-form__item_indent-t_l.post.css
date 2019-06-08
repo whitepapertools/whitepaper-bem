@@ -1,7 +1,3 @@
-.pt-form__item_indent-t_l {
+.pt-form__item_indent-t_l:not(:last-child) {
 	margin-top: var(--space-l);
-
-	&:first-child {
-		margin-top: 0;
-	}
 }

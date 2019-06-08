@@ -14,7 +14,7 @@ align       | center / left / right                            | Горизон�
 decoration  | underline                                        | Подчеркивание
 display     | block / inline-block / inline                    | Способ отображения блока на странице
 font        | mono / sans / serif                              | Семейство шрифтов
-size        | xs / s / m / l / xl / xxl / xxxl / xxxxl         | Размер
+size        | xs / s / m / l / xl / 2xl / 3xl / 4xl         | Размер
 spacing     | xs / s / m                                       | Межбуквенное расстояние
 style       | italic                                           | Курсив
 transform   | uppercase                                        | Верхний регистр

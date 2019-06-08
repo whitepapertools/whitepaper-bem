@@ -1,0 +1,3 @@
+.pt-list__item_space-t_5xl:not(:first-child) {
+	padding-top: var(--space-5xl);
+}

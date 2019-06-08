@@ -4,7 +4,7 @@
 	height: var(--space-xl);
 	max-width: 100%;
 	box-sizing: border-box;
-	padding: var(--space-xxs) var(--space-s);
+	padding: var(--space-2xs) var(--space-s);
 	overflow: hidden;
 	border-radius: 99em;
 	font-size: var(--size-typo-s);

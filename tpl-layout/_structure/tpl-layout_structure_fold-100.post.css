@@ -1,4 +1,5 @@
 .tpl-layout_structure_fold-100 {
+	display: grid;
 	grid-template-columns: var(--menu-fold) auto;
 	grid-template-rows: minmax(100vh, auto);
 }
