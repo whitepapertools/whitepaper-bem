@@ -10,7 +10,7 @@
 ```
 
 ## Живые примеры и дизайн
-[Пример](https://codepen.io/whitepapertools/pen/22222a8a7ecf82d941fe57a170619ac8/)
+[avatar на whitepaper.tools](https://codepen.io/whitepapertools/pen/22222a8a7ecf82d941fe57a170619ac8/)
 
 
 ## Элементы блока
