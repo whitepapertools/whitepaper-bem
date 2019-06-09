@@ -15,7 +15,7 @@
 
 Модификатор   | Значение | Описание
 --------------|----------| --------
-`view`        | `default` `disable` `primary` `secondary` `ghost` `success` `warning` `alert` | Цвет иконки
-`round`       | `default` `disable` `primary` `secondary` `ghost` `success` `warning` `alert` | Добавляет круглую подложку
-`border`      | `primary` `secondary` `ghost` `success` `warning` `alert` | Добавляет бесцветную круглую подложку с бордером
+`view`        | `default` `disable` `primary` `secondary` `ghost` `success` `warning` `alert` | Цвет
+`round`       | `default` `disable` `primary` `secondary` `ghost` `success` `warning` `alert` | Цвет круглой подложки
+`border`      | `primary` `secondary` `ghost` `success` `warning` `alert` | Цвет бордера бесцветной круглой подложки
 `size`        | `s` `m` | Размер иконки

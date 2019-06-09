@@ -1,12 +1,9 @@
-# Декоратор
+# decorator
 
 Блок для применения внутренних и внешних отступов к любым блокам в разметке.
 
-```js
-{
-	block: 'yourblock',
-	mix: { block: 'decorator', mods: { 'indent-a': 'l', 'space-a': 's' } }
-}
+```html
+<div class="yourblock decorator decorator_space-a_m decorator_space-b_l">
 ```
 
 Модификаторы decorator | Значение                                                             | Описание
