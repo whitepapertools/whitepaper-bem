@@ -3,65 +3,37 @@
 Блок, отвечающий за глобальные переменные цветов, типографики и отступов.
 Миксуется к самому внешнему блоку, например `body`. Это обязательное условие для работы системы.
 
-```js
-{
-	block: 'page',
-	mix: { 
-		block: 'theme',
-		mods: { color: 'default',	// цвета
-				space: 'default',	// отступы
-				menu: 'default',	// размер меню
-				size: 'default',	// типографика
-				gap: 'medium' } 	// отступы в сетках
-	}
-}
+```html
+<body class="page theme theme_color_default theme_space_default theme_menu_default theme_size_default theme_gap_medium">
+	...
+</body>
 ```
 
 Получается, что слой темы состоит из нескольких маленьких тем. Их можно менять независимо друг от друга. Т.е. можно поменять цвет, не трогая типографику и отступы.
 
 На странице можно использовать несколько тем.
 
-```js
-{
-	block: 'page',
-	mix: { // этот микс нужен обязательно
-		block: 'theme',
-		mods: { color: 'default',
-				space: 'default',
-				menu: 'default',
-				size: 'default',
-				gap: 'medium' }
-	},
-	content: [
-	{
-		block: 'section' // обычная секция
-	},
-	{
-		block: 'section',
-		mix: { // секция с инверсией цветов
-			block: 'theme',
-			mods: { color: 'inverse' }
-		}
-	},
-	{
-		block: 'section',
-		mix: { // цветная секция
-			block: 'theme',
-			mods: { color: 'green' }
-		}
-	}]
-}
+```html
+<body class="page theme theme_color_default theme_space_default theme_menu_default theme_size_default theme_gap_medium"> /* этот микс нужен обязательно */
+	<div class="section></div>
+    <div class="section theme theme_color_inverse"> /* секция с инверсией цветов */
+        ...
+    </div>
+	<div class="sectiontheme theme_color_brand> /* брендированная секция */
+		...
+	</div>
+</body>
 ```
 
 Модификаторы       | Значение                                                   | Описание
 ------------------ | ---------------------------------------------------------- | ----------------------------------
-breakpoint         | default                                                    | точки изменения интерфейса при адаптиве
 color              | whitepaper-brand / whitepaper-default / whitepaper-inverse | цветовая схема
-font               | ibm / museo                                                | используемый шрифт
-gap                | large / medium / small                                     | размер расстояния между колонками сетки
-menu               | default                                                    | размер бокового меню
 size               | default                                                    | размеры и высоты строк типографики
 space              | default                                                    | размеры отступов
+breakpoint         | default                                                    | точки изменения интерфейса при адаптиве
+font               | default                                                    | используемый шрифт
+gap                | large / medium / small                                     | размер расстояния между колонками сетки
+menu               | default                                                    | размер бокового меню
 control            | whitepaper-brand / whitepaper-default / whitepaper-inverse | цветовая схема
 
 ## Новая тема
@@ -72,9 +44,9 @@ control            | whitepaper-brand / whitepaper-default / whitepaper-inverse 
 theme/
 	color/
 		default.css 	// по аналогии создай файл с названием совей темы
-	space/
-		default.css 	// по аналогии создай файл с названием совей темы
 	size/
+		default.css 	// по аналогии создай файл с названием совей темы
+	space/
 		default.css 	// по аналогии создай файл с названием совей темы
 	menu/
 		default.css 	// по аналогии создай файл с названием совей темы
@@ -83,3 +55,76 @@ theme/
 		medium.css
 		small.css
 ```
+
+
+### Цвета
+Переменные цветов используются в модификациях блоков и типографики, подчёркивая их смысл или состояние. Все переменные для цветов называются по смыслу, месту их использования. Они не обозначают значение цвета.
+
+?> Для математики изменений цветов мы используем плагин [postcss-color-function](https://github.com/postcss/postcss-color-function), но также подойдёт любой другой популярный препроцессор.
+
+
+
+#### Базовые цвета
+5 цветов для статусов. Они не наследуются от основной палитры, но влияют на цвета статусные текста и фонов блоков. С префиксом `color-base-`
+
+С префиксом `--color-base-`
+
+Переменная            | Описание
+--------------------- | ----------------------------------
+$color-base-base      | Базовый цвет содержимого, от которого выстраиваются цвета текста, иконок, ... 
+$color-base-essential | Базовый цвет поверхностей
+$color-base-project   | Проектный цвет, от которого выстраивают акцентные состояния
+$color-base-phantom   | Тонирующий цвет, от которого выстраиватся бордеры, паранджа
+$color-base-path      | Ссылочный цвет, от которого выстраиваются все их состояния
+$color-base-success   | Цвет успеха
+$color-base-warning   | Цвет ошибки
+$color-base-alert     | Цвет предупреждения
+$color-base-system    | Цвет нейтральный
+$color-base-normal    | Цвет системнный
+
+
+#### Цвета фонов
+
+С префиксом `--color-bg-`
+
+Переменная            | Описание
+--------------------- | ----------------------------------
+$color-bg-brand       | Цвет фона брендированый
+$color-bg-action      | Цвет фона действия
+$color-bg-selection   | Цвет фона выделения
+$color-bg-hover       | Цвет фона при наведении
+$color-bg-border      | Цвет границ
+$color-bg-stripe      | Цвет зебры
+$color-bg-ghost       | Цвет затенения
+$color-bg-default     | Цвет дефолта
+$color-bg-tone        | Цвет паранджи
+$color-bg-soft        | Цвет молока
+$color-bg-success     | Цвет успеха
+$color-bg-alert       | Цвет ошибки
+$color-bg-warning     | Цвет предупреждения
+$color-bg-normal      | Цвет нейтральный
+$color-bg-system      | Цвет системнный
+$color-bg-link        | Цвет фона ссылки
+
+
+#### Цвета типографики
+С префиксом `--color-typo` и `--color-link`
+
+Переменная            | Описание
+--------------------- | ----------------------------------
+$color-typo-brand     | Цвет брендового текста
+$color-typo-promo     | Цвет основного текста
+$color-typo-secondary | Цвет промо текста
+$color-typo-ghost     | Цвет второстепенного текста
+$color-typo-disable   | Цвет дополнительного текста
+$color-typo-success   | Цвет неактивного текста
+$color-typo-warning   | Цвет текста успеха
+$color-typo-alert     | Цвет текста ошибки
+
+Переменная            | Описание
+--------------------- | ----------------------------------
+$color-link           | Цвет основной ссылки
+$color-link-external  | Цвет дополнительной ссылки
+$color-link-minor     | Цвет второстепенной ссылки
+$color-link-hover     | Цвет ховера ссылки
+
