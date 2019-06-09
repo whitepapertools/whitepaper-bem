@@ -1,3 +1,5 @@
+@import '../theme/_breakpoint/theme_breakpoint_default.post.css';
+
 .tpl-grid {
 	display: grid;
 	width: 100%;
