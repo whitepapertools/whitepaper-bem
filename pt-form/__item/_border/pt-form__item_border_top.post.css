@@ -1,3 +1,0 @@
-.pt-form__item_border_top:not(:first-child) {
-	border-top: 1px solid var(--color-bg-border);
-}
