@@ -1,3 +1,0 @@
-.pt-list__item_indent-b_xs:not(:last-child) {
-	margin-bottom: var(--space-xs);
-}
