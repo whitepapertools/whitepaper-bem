@@ -1,25 +1,25 @@
 .theme_size_default {
-	/* Размер текста */
-	--size-typo-xs: 11px;
-	--size-typo-s: 13px;
-	--size-typo-m: 15px;
-	--size-typo-l: 18px;
-	--size-typo-xl: 20px;
-	--size-typo-2xl: 24px;
-	--size-typo-3xl: 32px;
-	--size-typo-4xl: 48px;
-	--size-typo-5xl: 72px;
-	--size-typo-6xl: 96px;
+  /* Размер текста */
+  --size-typo-xs: 11px;
+  --size-typo-s: 13px;
+  --size-typo-m: 15px;
+  --size-typo-l: 18px;
+  --size-typo-xl: 20px;
+  --size-typo-2xl: 24px;
+  --size-typo-3xl: 32px;
+  --size-typo-4xl: 48px;
+  --size-typo-5xl: 72px;
+  --size-typo-6xl: 96px;
 
-	/* Межстрочный интервал */
-	--line-height-typo-xs: 15px;
-	--line-height-typo-s: 18px;
-	--line-height-typo-m: 21px;
-	--line-height-typo-l: 25px;
-	--line-height-typo-xl: 28px;
-	--line-height-typo-2xl: 34px;
-	--line-height-typo-3xl: 42px;
-	--line-height-typo-4xl: 62px;
-	--line-height-typo-5xl: 82px;
-	--line-height-typo-6xl: 115px;
+  /* Межстрочный интервал */
+  --line-height-typo-xs: 1.4em;
+  --line-height-typo-s: 1.5em;
+  --line-height-typo-m: 1.6em;
+  --line-height-typo-l: 1.6em;
+  --line-height-typo-xl: 1.6em;
+  --line-height-typo-2xl: 1.5em;
+  --line-height-typo-3xl: 1.4em;
+  --line-height-typo-4xl: 1.4em;
+  --line-height-typo-5xl: 1.2em;
+  --line-height-typo-6xl: 1.2em;
 }
