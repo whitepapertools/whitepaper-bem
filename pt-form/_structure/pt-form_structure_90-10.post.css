@@ -1,3 +1,5 @@
+@import '../../theme/_breakpoint/theme_breakpoint_default.post.css';
+
 .pt-form_structure_90-10 .pt-form__item {
 	display: flex;
 }
