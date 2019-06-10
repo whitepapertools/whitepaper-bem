@@ -1,6 +1,6 @@
 .icon_round_warning {
-	background-repeat: no-repeat;
-	padding: var(--space-s);
-	border-radius: 50%;
-	background-color: var(--color-bg-warning);
+    background-repeat: no-repeat;
+    padding: var(--space-s);
+    border-radius: 50%;
+    background-color: var(--color-bg-warning);
 }

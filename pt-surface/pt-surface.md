@@ -6,12 +6,12 @@
 
 ```html
 <div class="pt-surface pt-surface_view_tone">
-	<div class="pt-surface__window">
-		<div class="pt-surface__content pt-surface__content_size_full pt-surface__content_view_inverse pt-surface__content_space-a_xl">
-			<div class="pt-surface__close pt-surface__close_view_desktop icon icon_name_close icon_size_m icon_view_primary"></div>
-			// конент
-		</div>
-	</div>
+    <div class="pt-surface__window">
+        <div class="pt-surface__content pt-surface__content_size_full pt-surface__content_view_inverse pt-surface__content_space-a_xl">
+            <div class="pt-surface__close pt-surface__close_view_desktop icon icon_name_close icon_size_m icon_view_primary"></div>
+            // конент
+        </div>
+    </div>
 </div>
 ```
 

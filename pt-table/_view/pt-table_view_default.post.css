@@ -1,9 +1,9 @@
 .pt-table_view_default {
-	& > .pt-table__row:not(.pt-table__row_view_head):not(.pt-table__row_head) {
-		background: var(--color-bg-default);
+    & > .pt-table__row:not(.pt-table__row_view_head):not(.pt-table__row_head) {
+        background: var(--color-bg-default);
 
-		&:hover {
-			background: var(--color-bg-stripe);
-		}
-	}
+        &:hover {
+            background: var(--color-bg-stripe);
+        }
+    }
 }

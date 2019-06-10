@@ -1,24 +1,24 @@
 @import "../_breakpoint/theme_breakpoint_default.post.css";
 
 .theme_gap_large {
-	/* Размеры отступа у контента */
-	--gap: var(--space-l);
+    /* Размеры отступа у контента */
+    --gap: var(--space-l);
 
-	/* Размеры отступов в колонках */
-	--col-gap-third: calc(var(--gap) * 0.33);
-	--col-gap-half: calc(var(--gap) * 0.5);
-	--col-gap-two-thirds: calc(var(--gap) * 0.66);
-	--col-gap-full: var(--gap);
+    /* Размеры отступов в колонках */
+    --col-gap-third: calc(var(--gap) * 0.33);
+    --col-gap-half: calc(var(--gap) * 0.5);
+    --col-gap-two-thirds: calc(var(--gap) * 0.66);
+    --col-gap-full: var(--gap);
 
-	@media screen and (min-width: $screen-s) {
-		--gap: var(--space-xxl);
-	}
+    @media screen and (min-width: $screen-s) {
+        --gap: var(--space-2xl);
+    }
 
-	@media screen and (min-width: $screen-m) {
-		--gap: var(--space-xxxl);
-	}
+    @media screen and (min-width: $screen-m) {
+        --gap: var(--space-3xl);
+    }
 
-	@media screen and (min-width: $screen-l) {
-		--gap: var(--space-xxxxl);
-	}
+    @media screen and (min-width: $screen-l) {
+        --gap: var(--space-4xl);
+    }
 }

@@ -1,5 +1,5 @@
 .pt-list_space-r_l {
-	.pt-list__item {
-		padding-right: var(--space-l);
-	}
+    .pt-list__item {
+        padding-right: var(--space-l);
+    }
 }
