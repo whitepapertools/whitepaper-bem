@@ -75,78 +75,78 @@ $color-control-typo-placeholder-disable:   color($color-base-phantom l(+50%)); /
 
 
 .theme_control_whitepaper-brand {
-	/* Default */
-	--color-control-bg-default: $color-control-bg-default; /* Цвет фона контрола */
-	--color-control-bg-default-hover: $color-control-bg-default-hover; /* Цвет фона контрола по ховеру */
-	--color-control-bg-default-press: $color-control-bg-default-press; /* Цвет фона контрола по нажатию */
-	--color-control-bg-default-affect: $color-control-bg-default-affect; /* Цвет фона содержимого контрола */
+    /* Default */
+    --color-control-bg-default: $color-control-bg-default; /* Цвет фона контрола */
+    --color-control-bg-default-hover: $color-control-bg-default-hover; /* Цвет фона контрола по ховеру */
+    --color-control-bg-default-press: $color-control-bg-default-press; /* Цвет фона контрола по нажатию */
+    --color-control-bg-default-affect: $color-control-bg-default-affect; /* Цвет фона содержимого контрола */
 
-	--color-control-bg-border-default: $color-control-bg-border-default; /* Цвет фона бордеров контрола */
-	--color-control-bg-border-default-hover: $color-control-bg-border-default-hover; /* Цвет фона бордеров контрола по ховеру */
-	--color-control-bg-border-default-press: $color-control-bg-border-default-press; /* Цвет фона бордеров контрола по нажатию */
-	--color-control-bg-border-focus: $color-control-bg-border-focus; /* Цвет аутлайна контролов при фокусе */
+    --color-control-bg-border-default: $color-control-bg-border-default; /* Цвет фона бордеров контрола */
+    --color-control-bg-border-default-hover: $color-control-bg-border-default-hover; /* Цвет фона бордеров контрола по ховеру */
+    --color-control-bg-border-default-press: $color-control-bg-border-default-press; /* Цвет фона бордеров контрола по нажатию */
+    --color-control-bg-border-focus: $color-control-bg-border-focus; /* Цвет аутлайна контролов при фокусе */
 
-	--color-control-typo-primary: $color-control-typo-primary; /* Цвет основного текста контрола */
-	--color-control-typo-secondary: $color-control-typo-secondary; /* Цвет второстепеного текста контрола */
-	--color-control-typo-ghost: $color-control-typo-ghost; /* Цвет дополнительного текста контрола */
-	--color-control-typo-placeholder: $color-control-typo-placeholder; /* Цвет плейсхолдера контрола */
-	--color-control-typo-affect: $color-control-typo-affect; /* Цвет текста внутри акцентного блока */
-	--color-control-typo-action: $color-control-typo-action; /* Цвет акцентного текста */
-
-
-	/* Action / Focus / Check / Progress */
-	--color-control-bg-action: $color-control-bg-action; /* Цвет фона активного контрола */
-	--color-control-bg-action-hover: $color-control-bg-action-hover; /* Цвет фона активного контрола по ховеру */
-	--color-control-bg-action-press: $color-control-bg-action-press; /* Цвет фон активного контрола по нажатию */
-	--color-control-bg-action-progress: $color-control-bg-action-progress; /* Цвет фона активного контрола при фокусе */
-	--color-control-bg-action-progressing: $color-control-bg-action-progressing; /* Цвет фон активного контрола по нажатию */
-
-	/* Clear / Focus / Check / Progress */
-	--color-control-bg-clear: $color-control-bg-clear; /* Цвет фона чистого контрола */
-	--color-control-bg-clear-hover: $color-control-bg-clear-hover; /* Цвет фона чистого контрола по ховеру */
-	--color-control-bg-clear-press: $color-control-bg-clear-press; /* Цвет фон чистого контрола по нажатию */
-
-	--color-control-bg-check: $color-control-bg-check; /* Цвет фона чекнутого контрола */
-	--color-control-bg-check-press: $color-control-bg-check-press; /* Цвет фона чекнутого контрола по нажатию */
-	--color-control-bg-check-hover: $color-control-bg-check-hover; /* Цвет фона чекнутого контрола по ховеру */
-
-	/* --color-control-bg-border-focus: $color-control-bg-border-focus; */
-	--color-control-bg-border-check: $color-control-bg-border-check; /* Цвет фона бордеров чекнутого контрола */
-	--color-control-bg-border-check-press: $color-control-bg-border-check-press; /* Цвет фона бордеров чекнутого контрола при фокусе по нажатию */
-	--color-control-bg-border-check-hover: $color-control-bg-border-check-hover; /* Цвет фона бордеров чекнутого контрола по ховеру */
+    --color-control-typo-primary: $color-control-typo-primary; /* Цвет основного текста контрола */
+    --color-control-typo-secondary: $color-control-typo-secondary; /* Цвет второстепеного текста контрола */
+    --color-control-typo-ghost: $color-control-typo-ghost; /* Цвет дополнительного текста контрола */
+    --color-control-typo-placeholder: $color-control-typo-placeholder; /* Цвет плейсхолдера контрола */
+    --color-control-typo-affect: $color-control-typo-affect; /* Цвет текста внутри акцентного блока */
+    --color-control-typo-action: $color-control-typo-action; /* Цвет акцентного текста */
 
 
-	/* Link */
-	--color-control-link-default: $color-control-link-default; /* Цвет ссылки */
+    /* Action / Focus / Check / Progress */
+    --color-control-bg-action: $color-control-bg-action; /* Цвет фона активного контрола */
+    --color-control-bg-action-hover: $color-control-bg-action-hover; /* Цвет фона активного контрола по ховеру */
+    --color-control-bg-action-press: $color-control-bg-action-press; /* Цвет фон активного контрола по нажатию */
+    --color-control-bg-action-progress: $color-control-bg-action-progress; /* Цвет фона активного контрола при фокусе */
+    --color-control-bg-action-progressing: $color-control-bg-action-progressing; /* Цвет фон активного контрола по нажатию */
 
-	--color-control-bg-link-default: $color-control-bg-link-default; /* Цвет фона ссылки */
-	--color-control-bg-border-link-default: $color-control-bg-border-link-default; /* Цвет фона бордера ссылки */
+    /* Clear / Focus / Check / Progress */
+    --color-control-bg-clear: $color-control-bg-clear; /* Цвет фона чистого контрола */
+    --color-control-bg-clear-hover: $color-control-bg-clear-hover; /* Цвет фона чистого контрола по ховеру */
+    --color-control-bg-clear-press: $color-control-bg-clear-press; /* Цвет фон чистого контрола по нажатию */
+
+    --color-control-bg-check: $color-control-bg-check; /* Цвет фона чекнутого контрола */
+    --color-control-bg-check-press: $color-control-bg-check-press; /* Цвет фона чекнутого контрола по нажатию */
+    --color-control-bg-check-hover: $color-control-bg-check-hover; /* Цвет фона чекнутого контрола по ховеру */
+
+    /* --color-control-bg-border-focus: $color-control-bg-border-focus; */
+    --color-control-bg-border-check: $color-control-bg-border-check; /* Цвет фона бордеров чекнутого контрола */
+    --color-control-bg-border-check-press: $color-control-bg-border-check-press; /* Цвет фона бордеров чекнутого контрола при фокусе по нажатию */
+    --color-control-bg-border-check-hover: $color-control-bg-border-check-hover; /* Цвет фона бордеров чекнутого контрола по ховеру */
 
 
-	/* Disable */
-	--color-control-bg-disable: $color-control-bg-disable; /* Цвет фона неактивного контрола */
-	--color-control-bg-disable-check: $color-control-bg-disable-check; /* Цвет чекнутого неактивного контрола */
+    /* Link */
+    --color-control-link-default: $color-control-link-default; /* Цвет ссылки */
 
-	--color-control-bg-border-disable: $color-control-bg-border-disable; /* Цвет фона бордеров неактивного контрола */
+    --color-control-bg-link-default: $color-control-bg-link-default; /* Цвет фона ссылки */
+    --color-control-bg-border-link-default: $color-control-bg-border-link-default; /* Цвет фона бордера ссылки */
 
-	--color-control-typo-disable: $color-control-typo-disable; /* Цвет основного текста неактивного контрола */
-	--color-control-typo-placeholder-disable: $color-control-typo-placeholder-disable; /* Цвет плейсхолдера неактивного контрола */
 
-	/* Others */
-	--control-radius: 4px; /* Основной радиус скругления контроллов */
-	--control-border-width: 2px; /* Основная толщина контроллов */
+    /* Disable */
+    --color-control-bg-disable: $color-control-bg-disable; /* Цвет фона неактивного контрола */
+    --color-control-bg-disable-check: $color-control-bg-disable-check; /* Цвет чекнутого неактивного контрола */
 
-	--control-button-size-l: var(--space-xxxxl);
-	--control-button-size-m: var(--space-xxxl);
-	--control-button-size-s: var(--space-xxl);
+    --color-control-bg-border-disable: $color-control-bg-border-disable; /* Цвет фона бордеров неактивного контрола */
 
-	--control-space-xl: var(--space-xl);
-	--control-space-l: var(--space-l);
-	--control-space-m: var(--space-m);
-	--control-space-s: var(--space-s);
-	--control-space-xs: var(--space-s);
+    --color-control-typo-disable: $color-control-typo-disable; /* Цвет основного текста неактивного контрола */
+    --color-control-typo-placeholder-disable: $color-control-typo-placeholder-disable; /* Цвет плейсхолдера неактивного контрола */
 
-	--control-size-l: var(--size-typo-l);
-	--control-size-m: var(--size-typo-m);
-	--control-size-s: var(--size-typo-s);
+    /* Others */
+    --control-radius: 4px; /* Основной радиус скругления контроллов */
+    --control-border-width: 2px; /* Основная толщина контроллов */
+
+    --control-button-size-l: var(--space-4xl);
+    --control-button-size-m: var(--space-3xl);
+    --control-button-size-s: var(--space-2xl);
+
+    --control-space-xl: var(--space-xl);
+    --control-space-l: var(--space-l);
+    --control-space-m: var(--space-m);
+    --control-space-s: var(--space-s);
+    --control-space-xs: var(--space-s);
+
+    --control-size-l: var(--size-typo-l);
+    --control-size-m: var(--size-typo-m);
+    --control-size-s: var(--size-typo-s);
 }

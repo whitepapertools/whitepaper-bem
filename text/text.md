@@ -9,7 +9,7 @@
 Для простого манипулирования уровнями иерархии для инфо-страниц в блоке `text` есть модификаторы `type`.
 
 ```html
-<div class="text text_size_xxxl text_view_secondary text_weight_bold">Some nice text</div>
+<div class="text text_size_3xl text_view_secondary text_weight_bold">Some nice text</div>
 ```
 
 ## Живые примеры и дизайн

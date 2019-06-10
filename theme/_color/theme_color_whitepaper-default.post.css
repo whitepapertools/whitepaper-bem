@@ -43,34 +43,34 @@ $color-link-minor: color($color-base-path h(+22) s(-80%) l(+13%)); /* Цвет �
 $color-link-hover: color($color-base-path l(-7%)); /* Цвет ховера ссылки */
 
 .theme_color_whitepaper-default {
-	/* Цвета блоков */
-	--color-bg-brand: $color-bg-brand; /* Цвет фона брендированый */
-	--color-bg-border: $color-bg-border; /* Цвет границ */
-	--color-bg-stripe: $color-bg-stripe; /* Цвет зебры */
-	--color-bg-ghost: $color-bg-ghost; /* Цвет затенения */
-	--color-bg-default: $color-bg-default; /* Цвет дефолта */
-	--color-bg-tone: $color-bg-tone; /* Цвет паранджи */
-	--color-bg-soft: $color-bg-soft; /* Цвет молока */
-	--color-bg-success: $color-bg-success; /* Цвет успеха */
-	--color-bg-alert: $color-bg-alert; /* Цвет ошибки */
-	--color-bg-warning: $color-bg-warning; /* Цвет предупреждения */
-	--color-bg-normal: $color-bg-normal; /* Цвет нейтральный */
-	--color-bg-system: $color-bg-system; /* Цвет системнный */
-	--color-bg-link: $color-bg-link; /* Цвет фона ссылки */
+    /* Цвета блоков */
+    --color-bg-brand: $color-bg-brand; /* Цвет фона брендированый */
+    --color-bg-border: $color-bg-border; /* Цвет границ */
+    --color-bg-stripe: $color-bg-stripe; /* Цвет зебры */
+    --color-bg-ghost: $color-bg-ghost; /* Цвет затенения */
+    --color-bg-default: $color-bg-default; /* Цвет дефолта */
+    --color-bg-tone: $color-bg-tone; /* Цвет паранджи */
+    --color-bg-soft: $color-bg-soft; /* Цвет молока */
+    --color-bg-success: $color-bg-success; /* Цвет успеха */
+    --color-bg-alert: $color-bg-alert; /* Цвет ошибки */
+    --color-bg-warning: $color-bg-warning; /* Цвет предупреждения */
+    --color-bg-normal: $color-bg-normal; /* Цвет нейтральный */
+    --color-bg-system: $color-bg-system; /* Цвет системнный */
+    --color-bg-link: $color-bg-link; /* Цвет фона ссылки */
 
-	/* Цвета текста */
-	--color-typo-brand: $color-typo-brand; /* Цвет брендового текста */
-	--color-typo-primary: $color-typo-primary; /* Цвет основного текста */
-	--color-typo-secondary: $color-typo-secondary; /* Цвет второстепенного текста */
-	--color-typo-ghost: $color-typo-ghost; /* Цвет дополнительного текста */
-	--color-typo-disable: $color-typo-disable; /* Цвет неактивного текста */
-	--color-typo-success: $color-typo-success; /* Цвет текста успеха */
-	--color-typo-warning: $color-typo-warning; /* Цвет текста предупреждения */
-	--color-typo-alert: $color-typo-alert; /* Цвет текста ошибки */
+    /* Цвета текста */
+    --color-typo-brand: $color-typo-brand; /* Цвет брендового текста */
+    --color-typo-primary: $color-typo-primary; /* Цвет основного текста */
+    --color-typo-secondary: $color-typo-secondary; /* Цвет второстепенного текста */
+    --color-typo-ghost: $color-typo-ghost; /* Цвет дополнительного текста */
+    --color-typo-disable: $color-typo-disable; /* Цвет неактивного текста */
+    --color-typo-success: $color-typo-success; /* Цвет текста успеха */
+    --color-typo-warning: $color-typo-warning; /* Цвет текста предупреждения */
+    --color-typo-alert: $color-typo-alert; /* Цвет текста ошибки */
 
-	/* Цвета ссылок */
-	--color-link: $color-link; /* Цвет основной ссылки */
-	--color-link-external: $color-link-external; /* Цвет дополнительной ссылки */
-	--color-link-minor: $color-link-minor; /* Цвет второстепенной ссылки */
-	--color-link-hover: $color-link-hover; /* Цвет ховера ссылки */
+    /* Цвета ссылок */
+    --color-link: $color-link; /* Цвет основной ссылки */
+    --color-link-external: $color-link-external; /* Цвет дополнительной ссылки */
+    --color-link-minor: $color-link-minor; /* Цвет второстепенной ссылки */
+    --color-link-hover: $color-link-hover; /* Цвет ховера ссылки */
 }

@@ -95,7 +95,7 @@ ___
 
 Переменные цветов используются в модификациях блоков и типографики, подчёркивая их смысл или состояние. Все переменные для цветов называются по смыслу, месту их использования. Они не обозначают значение цвета.
 
-⚠️ Для математики изменений цветов мы используем плагин [postcss-color-function](https://github.com/postcss/postcss-color-function), но также подойдёт любой другой популярный препроцессор. Postcss-переменные присваиваются как значение в [custom properties](a href='https://developer.mozilla.org/en-US/docs/Web/CSS/--*).
+⚠️ Для математики изменений цветов мы используем плагин [postcss-color-function](https://github.com/postcss/postcss-color-function), но также подойдёт любой другой популярный препроцессор. Postcss-переменные присваиваются как значение в [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*).
 
 
 
@@ -232,11 +232,11 @@ ___
     --size-typo-m: 15px;
     --size-typo-l: 18px;
     --size-typo-xl: 20px;
-    --size-typo-xxl: 24px;
-    --size-typo-xxxl: 32px;
-    --size-typo-xxxxl: 48px;
-    --size-typo-xxxxxl: 72px;
-    --size-typo-xxxxxxl: 96px;
+    --size-typo-2xl: 24px;
+    --size-typo-3xl: 32px;
+    --size-typo-4xl: 48px;
+    --size-typo-5xl: 72px;
+    --size-typo-6xl: 96px;
 
     /* Межстрочный интервал */
     --line-height-typo-xs: 15px;
@@ -244,11 +244,11 @@ ___
     --line-height-typo-m: 21px;
     --line-height-typo-l: 25px;
     --line-height-typo-xl: 28px;
-    --line-height-typo-xxl: 34px;
-    --line-height-typo-xxxl: 42px;
-    --line-height-typo-xxxxl: 62px;
-    --line-height-typo-xxxxxl: 82px;
-    --line-height-typo-xxxxxxl: 115px;
+    --line-height-typo-2xl: 34px;
+    --line-height-typo-3xl: 42px;
+    --line-height-typo-4xl: 62px;
+    --line-height-typo-5xl: 82px;
+    --line-height-typo-6xl: 115px;
 }
 ```
 
@@ -261,9 +261,9 @@ ___
 
 ```html
 <article class="theme_font_default">
-  <h2 class="text text_size_xxl text_font_sans"></h2>
-  <p class="text text_size_m text_font_serif"></p>
-  <button class="button theme_font_brand"></button>
+    <h2 class="text text_size_2xl text_font_sans"></h2>
+    <p class="text text_size_m text_font_serif"></p>
+    <button class="button theme_font_brand"></button>
 </article>
 ```
 
@@ -293,15 +293,15 @@ ___
 }
 
 @media screen and (min-width: $screen-s) {
-    :root { --gap: var(--space-xxxl); }
+    :root { --gap: var(--space-3xl); }
 }
 
 @media screen and (min-width: $screen-m) {
-    :root { --gap: var(--space-xxxxl); }
+    :root { --gap: var(--space-4xl); }
 }
 
 @media screen and (min-width: $screen-l) {
-    :root { --gap: var(--space-xxxxxl); }
+    :root { --gap: var(--space-5xl); }
 }
 ```
 
@@ -319,7 +319,7 @@ $screen-s: 720px; /* Планшеты в вертикальном режиме *
 $screen-m: 1024px; /* Планшеты в горизонтальном режиме */
 $screen-l: 1280px; /* Ноутбуки */
 $screen-xl: 1440px; /* Настольные компьютеры и ноутбуки */
-$screen-xxl: 1600px; /* Настольные компьютеры */
+$screen-2xl: 1600px; /* Настольные компьютеры */
 
 /* Переменные для desktop-first подхода */
 $screen-xs-max: 719px;
@@ -327,7 +327,7 @@ $screen-s-max: 1023px;
 $screen-m-max: 1279px;
 $screen-l-max: 1439px;
 $screen-xl-max: 1599px;
-$screen-xxl-max: 1920px;
+$screen-2xl-max: 1920px;
 ```
 
 
@@ -339,19 +339,19 @@ $screen-xxl-max: 1920px;
 @import 'path/to/your/theme_breakpoint_default.post.css';
 
 .block {
-  width: 200px;
-  ...
+    width: 200px;
+    ...
 }
 @media screen and (min-width: $screen-s) {
-  .block {
-  width: 300px;
-  ...
-  }
+    .block {
+        width: 300px;
+        ...
+    }
 }
 @media screen and (min-width: $screen-l) {
-  .block {
-  width: 450px;
-  ...
-  }
+    .block {
+        width: 450px;
+        ...
+    }
 }
 ```

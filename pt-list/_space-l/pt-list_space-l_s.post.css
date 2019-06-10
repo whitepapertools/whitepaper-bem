@@ -1,5 +1,5 @@
 .pt-list_space-l_s {
-	.pt-list__item {
-		padding-left: var(--space-s);
-	}
+    .pt-list__item {
+        padding-left: var(--space-s);
+    }
 }
