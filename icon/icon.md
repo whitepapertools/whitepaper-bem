@@ -16,9 +16,14 @@
 
 ## Модификаторы блока
 
-Модификатор | Значение                                                                      | Описание
-------------|-------------------------------------------------------------------------------| ----------------------------------------
-`view`      | `default` `disable` `primary` `secondary` `ghost` `success` `warning` `alert` | Цвет иконки
-`round`     | `default` `disable` `primary` `secondary` `ghost` `success` `warning` `alert` | Цвет круглой подложки
-`border`    | `primary` `secondary` `ghost` `success` `warning` `alert`                     | Цвет бордера бесцветной круглой подложки
-`size`      | `s` `m`                                                                       | Размер иконки
+Модификатор | Значение | Описание
+------------|--------- | --------
+`view`      | `alert` `brand` `ghost` `link` `primary` `secondary` `success` `warning` | Цвет иконки
+`round`     | `alert` `brand` `ghost` `primary` `secondary` `success` `warning` `default` | Цвет круглой подложки
+`border`    | `alert` `brand` `ghost` `primary` `secondary` `success` `warning` | Цвет бордера бесцветной круглой подложки
+`size`      | `s` `m` | Размер иконки
+
+
+## Графические файлы
+
+Все графические элементы должны быть подвязаны на модификатор `name`. Соответственно, должен быть css-класс `.icon_name_burger` и для него графический элемент `icon_name_burger.svg`.

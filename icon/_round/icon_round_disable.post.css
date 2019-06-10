@@ -1,6 +1,0 @@
-.icon_round_disable {
-	background-repeat: no-repeat;
-	padding: var(--space-s);
-	border-radius: 50%;
-	background-color: var(--color-bg-disable);
-}

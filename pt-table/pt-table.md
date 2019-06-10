@@ -3,13 +3,13 @@
 `pt-table` — паттерн для создания простых плоских таблиц. Набор модификаторов покрывает максимальное количество как стилистических так и структурных потребностей. Также есть возможность маркеровать строки по статусу.
 
 ```html
-<div class="pt-table">
-    <div class="pt-table__row">
-        <div class="pt-table__col"></div>
-        <div class="pt-table__col"></div>
-        <div class="pt-table__col"></div>
-    </div>
-</div>
+<table class="pt-table">
+    <tr class="pt-table__row">
+        <td class="pt-table__col"></td>
+        <td class="pt-table__col"></td>
+        <td class="pt-table__col"></td>
+    </tr>
+</table>
 ```
 
 ## Живые примеры и дизайн

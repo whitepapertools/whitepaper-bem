@@ -3,7 +3,7 @@
 Для отображения статуса каких-либо сущностей используется блок `badge`. Статус определяется через модификацию.
 
 ```html
-<div class="badge badge_view_success">Успешный статус</div>
+<div class="badge badge_view_success"></div>
 ```
 
 ## Живые примеры и дизайн
