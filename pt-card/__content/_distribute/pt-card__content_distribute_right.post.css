@@ -1,5 +1,4 @@
 .pt-card__content_distribute_right {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }

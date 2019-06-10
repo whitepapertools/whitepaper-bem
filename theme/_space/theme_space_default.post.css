@@ -1,29 +1,15 @@
-/* Отступы */
-$space-xxxs: 2px;
-$space-xxs: 4px;
-$space-xs: 8px;
-$space-s: 12px;
-$space-m: 16px;
-$space-l: 20px;
-$space-xl: 24px;
-$space-xxl: 32px;
-$space-xxxl: 40px;
-$space-xxxxl: 48px;
-$space-xxxxxl: 72px;
-$space-xxxxxxl: 96px;
-
 .theme_space_default {
-	/* Отступы */
-	--space-xxxs: $space-xxxs;
-	--space-xxs: $space-xxs;
-	--space-xs: $space-xs;
-	--space-s: $space-s;
-	--space-m: $space-m;
-	--space-l: $space-l;
-	--space-xl: $space-xl;
-	--space-xxl: $space-xxl;
-	--space-xxxl: $space-xxxl;
-	--space-xxxxl: $space-xxxxl;
-	--space-xxxxxl: $space-xxxxxl;
-	--space-xxxxxxl: $space-xxxxxxl;
+    /* Отступы */
+    --space-3xs: 2px;
+    --space-2xs: 4px;
+    --space-xs: 8px;
+    --space-s: 12px;
+    --space-m: 16px;
+    --space-l: 20px;
+    --space-xl: 24px;
+    --space-2xl: 32px;
+    --space-3xl: 40px;
+    --space-4xl: 48px;
+    --space-5xl: 72px;
+    --space-6xl: 96px;
 }

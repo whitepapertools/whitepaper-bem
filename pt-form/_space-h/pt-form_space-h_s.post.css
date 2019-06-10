@@ -1,0 +1,14 @@
+.pt-form_space-h_s .pt-form__item {
+    padding-left: var(--space-s);
+    padding-right: var(--space-s);
+}
+
+.pt-form_space-h_s .pt-form__section {
+    padding-left: var(--space-s);
+    padding-right: var(--space-s);
+}
+
+.pt-form_space-h_s .pt-form__section .pt-form__item {
+    padding-left: 0;
+    padding-right: 0;
+}

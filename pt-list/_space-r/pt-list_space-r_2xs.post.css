@@ -1,0 +1,5 @@
+.pt-list_space-r_2xs {
+    .pt-list__item {
+        padding-right: var(--space-2xs);
+    }
+}

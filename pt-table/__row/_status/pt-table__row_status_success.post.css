@@ -1,3 +1,3 @@
 .pt-table__row_status_success {
-	box-shadow: inset var(--space-xxs) 0 0 var(--color-bg-success);
+    border-left: var(--space-2xs) solid var(--color-bg-success);
 }

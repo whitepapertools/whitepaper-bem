@@ -1,0 +1,5 @@
+.pt-card__content_vertical-align_baseline {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}

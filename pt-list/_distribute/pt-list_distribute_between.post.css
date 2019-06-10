@@ -1,0 +1,6 @@
+.pt-list_distribute_between {
+    .pt-list__item {
+        display: flex;
+        justify-content: space-between;
+    }
+}

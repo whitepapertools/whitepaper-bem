@@ -1,1 +1,0 @@
-block('icon').mod('name', 'album').mod('size', 's')({content: { html: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill-rule="evenodd" d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0-5a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg>' }});

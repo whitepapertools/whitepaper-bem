@@ -1,0 +1,20 @@
+.pt-form_space-a_4xl .pt-form__item {
+    padding: var(--space-4xl);
+}
+
+.pt-form_space-a_4xl .pt-form__section {
+    padding-left: var(--space-4xl);
+    padding-right: var(--space-4xl);
+}
+
+.pt-form_space-a_4xl .pt-form__item:not(.pt-form_bordered):first-child {
+    padding-top: 0;
+}
+.pt-form_space-a_4xl .pt-form__item:not(.pt-form_bordered):last-child {
+    padding-bottom: 0;
+}
+
+.pt-form_space-a_4xl .pt-form__section .pt-form__item {
+    padding-left: 0;
+    padding-right: 0;
+}

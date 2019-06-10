@@ -1,5 +1,4 @@
 .icon_size_m {
-	width: 24px;
-	height: 24px;
+    width: var(--graphics-size-m);
+    height: var(--graphics-size-m);
 }
-

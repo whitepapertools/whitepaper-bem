@@ -1,11 +1,7 @@
 .pt-table__row_view_head {
-	background: transparent;
+    background: transparent;
 
-	&:hover {
-		background: transparent;
-	}
-
-	& + .pt-table__row {
-		margin-top: 0;
-	}
+    &:hover {
+        background: transparent;
+    }
 }

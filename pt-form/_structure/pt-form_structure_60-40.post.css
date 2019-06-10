@@ -1,0 +1,23 @@
+@import '../../theme/_breakpoint/theme_breakpoint_default.post.css';
+
+.pt-form_structure_60-40 .pt-form__item {
+    display: flex;
+}
+.pt-form_structure_60-40 .pt-form__label {
+    width: 60%;
+}
+.pt-form_structure_60-40 .pt-form__control {
+    width: 40%;
+}
+
+@media screen and (max-width: $screen-xs-max) {
+    .pt-form_structure_60-40 .pt-form__item {
+        display: block;
+    }
+    .pt-form_structure_60-40 .pt-form__label {
+        width: 100%;
+    }
+    .pt-form_structure_60-40 .pt-form__control {
+        width: 100%;
+    }
+}

@@ -1,0 +1,6 @@
+.pt-list_distribute_default {
+    .pt-list__item {
+        display: flex;
+        justify-content: flex-start;
+    }    
+}

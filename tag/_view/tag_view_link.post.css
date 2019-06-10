@@ -1,11 +1,11 @@
 .tag_view_link {
-	color: var(--color-typo-secondary);
-	background: var(--color-bg-link);
-	cursor: pointer;
-	transition: background 0.3s ease;
-	text-decoration: none;
+    color: var(--color-typo-secondary);
+    background: var(--color-bg-link);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
 
-	&:hover {
-		opacity: 0.3;
-	}
+    &:hover {
+        opacity: 0.3;
+    }
 }

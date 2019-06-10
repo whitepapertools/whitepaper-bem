@@ -1,1 +1,0 @@
-block('icon').mod('name', 'minus').mod('size', 'm')({content: { html: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill-rule="evenodd" d="M2 11v2h20v-2z"/></svg>' }});block('icon').mod('name', 'minus').mod('size', 's')({content: { html: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill-rule="evenodd" d="M1 7v2h14V7z"/></svg>' }});

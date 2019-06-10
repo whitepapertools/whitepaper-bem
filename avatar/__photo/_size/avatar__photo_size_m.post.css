@@ -1,4 +1,4 @@
 .avatar__photo_size_m {
-	width: 60px;
-	height: 60px;
+    width: var(--graphics-size-2xl);
+    height: var(--graphics-size-2xl);
 }

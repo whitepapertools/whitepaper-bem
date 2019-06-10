@@ -1,0 +1,5 @@
+.pt-list_space-r_4xl {
+    .pt-list__item {
+        padding-right: var(--space-4xl);
+    }
+}

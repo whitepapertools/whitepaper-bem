@@ -1,7 +1,0 @@
-.pt-form__item_indent-t_m {
-	margin-top: var(--space-m);
-
-	&:first-child {
-		margin-top: 0;
-	}
-}

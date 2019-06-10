@@ -1,7 +1,0 @@
-.pt-list__item_border_bottom {
-	border-bottom: 1px solid var(--color-bg-border);
-
-	&:last-child {
-		border-bottom: none;
-	}
-}

@@ -1,0 +1,3 @@
+.pt-list_stripe_odd > .pt-list__item:nth-child(2n-1) {
+    background-color: var(--color-bg-stripe);
+}

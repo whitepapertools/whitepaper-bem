@@ -1,7 +1,0 @@
-.pt-form__item_space-b_s {
-	padding-bottom: var(--space-s);
-
-	&:last-child {
-		padding-bottom: 0;
-	}
-}

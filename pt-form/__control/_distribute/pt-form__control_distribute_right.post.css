@@ -1,0 +1,4 @@
+.pt-form__control_distribute_right {
+    display: flex;
+    justify-content: flex-end;
+}

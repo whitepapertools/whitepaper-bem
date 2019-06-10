@@ -1,0 +1,9 @@
+.pt-form__item_no-structure {
+    display: block;
+}
+.pt-form__item_no-structure .pt-form__control {
+    width: 100%;
+}
+.pt-form__item_no-structure .pt-form__label {
+    width: 100%;
+}

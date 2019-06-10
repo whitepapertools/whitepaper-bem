@@ -1,0 +1,6 @@
+.pt-list_vertical-align_center {
+    .pt-list__item {
+        display: flex;
+        align-items: center;
+    }
+}

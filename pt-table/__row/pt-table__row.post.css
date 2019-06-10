@@ -1,12 +1,3 @@
 .pt-table__row {
-	position: relative;
-	display: flex;
-	align-items: baseline;
-	flex-wrap: nowrap;
-	margin-top: var(--space-xs);
-	transition: background-color 0.5s ease-out;
-
-	&:first-child {
-		margin-top: 0;
-	}
+    transition: background-color 0.5s ease-out;
 }

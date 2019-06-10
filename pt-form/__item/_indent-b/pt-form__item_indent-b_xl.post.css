@@ -1,7 +1,0 @@
-.pt-form__item_indent-b_xl {
-	margin-bottom: var(--space-xl);
-
-	&:last-child {
-		margin-bottom: 0;
-	}
-}

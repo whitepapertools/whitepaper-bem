@@ -3,27 +3,11 @@ $screen-s: 720px;
 $screen-m: 1024px;
 $screen-l: 1280px;
 $screen-xl: 1440px;
-$screen-xxl: 1600px;
+$screen-2xl: 1600px;
 
 $screen-xs-max: 719px;
 $screen-s-max: 1023px;
 $screen-m-max: 1279px;
 $screen-l-max: 1439px;
 $screen-xl-max: 1599px;
-$screen-xxl-max: 1920px;
-
-.theme_breakpoint_default {
-	--screen-xs: $screen-xs;
-	--screen-s: $screen-s;
-	--screen-m: $screen-m;
-	--screen-l: $screen-l;
-	--screen-xl: $screen-xl;
-	--screen-xxl: $screen-xxl;
-
-	--screen-xs-max: $screen-xs-max;
-	--screen-s-max: $screen-s-max;
-	--screen-m-max: $screen-m-max;
-	--screen-l-max: $screen-l-max;
-	--screen-xl-max: $screen-xl-max;
-	--screen-xxl-max: $screen-xxl-max;
-}
+$screen-2xl-max: 1920px;

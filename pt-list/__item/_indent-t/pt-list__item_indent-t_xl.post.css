@@ -1,7 +1,0 @@
-.pt-list__item_indent-t_xl {
-	margin-top: var(--space-xl);
-
-	&:first-child {
-		margin-top: 0;
-	}
-}

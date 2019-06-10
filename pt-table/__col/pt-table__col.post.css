@@ -1,6 +1,4 @@
 .pt-table__col {
-	position: relative;
-	flex-grow: 0;
-	flex-shrink: 0;
-	box-sizing: border-box;
+    position: relative;
+    box-sizing: border-box;
 }

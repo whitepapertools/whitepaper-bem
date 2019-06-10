@@ -1,0 +1,5 @@
+.pt-list_space-l_3xl {
+    .pt-list__item {
+        padding-left: var(--space-3xl);
+    }
+}

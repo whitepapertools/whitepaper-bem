@@ -1,4 +1,5 @@
 .tpl-layout_structure_20-60-20 {
-	grid-template-columns: 20% 60% 20%;
-	grid-template-rows: minmax(100vh, auto);
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: minmax(100vh, auto);
 }

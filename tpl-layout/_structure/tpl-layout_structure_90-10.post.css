@@ -1,4 +1,5 @@
 .tpl-layout_structure_90-10 {
-	grid-template-columns: 90% 10%;
-	grid-template-rows: minmax(100vh, auto);
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-template-rows: minmax(100vh, auto);
 }

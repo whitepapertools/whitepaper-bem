@@ -1,0 +1,4 @@
+.pt-card__header_space-h_3xl {
+    padding-left: var(--space-3xl);
+    padding-right: var(--space-3xl);
+}

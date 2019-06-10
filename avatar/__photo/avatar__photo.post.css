@@ -1,8 +1,8 @@
 .avatar__photo {
-	border-radius: 50%;
-	height: 100%;
-	overflow: hidden;
-	background-image: url('default.svg');
-	background-size: cover;
-	object-fit: cover;
+    border-radius: 50%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23D8D8D8' fill-rule='evenodd'%3E%3Cpath d='M78 80c0-22.091-12-30-38-30S2 57.909 2 80h76zM40 45c8.942 0 15.048-8.954 16-20 1.143-13.258-7.058-20-16-20s-17.143 6.741-16 20c.952 11.046 7.058 20 16 20z'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: cover;
+    object-fit: cover;
 }

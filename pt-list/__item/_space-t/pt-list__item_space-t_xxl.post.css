@@ -1,7 +1,0 @@
-.pt-list__item_space-t_xxl {
-	padding-top: var(--space-xxl);
-
-	&:first-child {
-		padding-top: 0;
-	}
-}

@@ -1,4 +1,0 @@
-.tpl-layout_structure_fold-70-30 {
-	grid-template-columns: var(--menu-fold) calc((100% - var(--menu-fold)) * 0.7) calc((100% - var(--menu-fold)) * 0.3);
-	grid-template-rows: minmax(100vh, auto);
-}

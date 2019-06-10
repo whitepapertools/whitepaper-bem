@@ -1,6 +1,0 @@
-.social-icon_hover_default {
-	cursor: pointer;
-	&:hover {
-		opacity: 0.7;
-	}
-}

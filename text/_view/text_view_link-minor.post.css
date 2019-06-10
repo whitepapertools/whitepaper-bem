@@ -1,9 +1,9 @@
 .text_view_link-minor {
-	color: var(--color-link-minor);
-	text-decoration: none;
-	transition: 0.3s ease;
+    color: var(--color-link-minor);
+    text-decoration: none;
+    transition: 0.3s ease;
 
-	&:hover {
-		color: var(--color-link-hover);
-	}
+    &:hover {
+        color: var(--color-link-hover);
+    }
 }

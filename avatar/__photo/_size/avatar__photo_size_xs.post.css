@@ -1,4 +1,4 @@
 .avatar__photo_size_xs {
-	width: 32px;
-	height: 32px;
+    width: var(--graphics-size-l);
+    height: var(--graphics-size-l);
 }

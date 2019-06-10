@@ -1,0 +1,11 @@
+.pt-form_space-v_2xl .pt-form__item {
+    padding-top: var(--space-2xl);
+    padding-bottom: var(--space-2xl);
+}
+
+.pt-form_space-v_2xl .pt-form__item:not(.pt-form_bordered):first-child {
+    padding-top: 0;
+}
+.pt-form_space-v_2xl .pt-form__item:not(.pt-form_bordered):last-child {
+    padding-bottom: 0;
+}

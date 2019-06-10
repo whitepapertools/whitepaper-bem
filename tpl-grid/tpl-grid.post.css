@@ -1,84 +1,86 @@
+@import '../theme/_breakpoint/theme_breakpoint_default.post.css';
+
 .tpl-grid {
-	display: grid;
-	width: 100%;
+    display: grid;
+    width: 100%;
 }
 
 .tpl-grid_xs-columns {
-	&_2 { grid-template-columns: repeat(2, 1fr); }
-	&_3 { grid-template-columns: repeat(3, 1fr); }
+    &_2 { grid-template-columns: repeat(2, 1fr); }
+    &_3 { grid-template-columns: repeat(3, 1fr); }
 }
 
 @media screen and (max-width: $screen-xs-max) {
-	.tpl-grid_xs-ratio_1-1-1 {
-		flex-flow: row wrap;
-		grid-template-columns: 1fr 1fr 1fr;
+    .tpl-grid_xs-ratio_1-1-1 {
+        flex-flow: row wrap;
+        grid-template-columns: 1fr 1fr 1fr;
 
-		.tpl-grid__fraction {
-			padding: var(--col-gap-half);
-			box-sizing: border-box;
-		}
-	}
+        .tpl-grid__fraction {
+            padding: var(--col-gap-half);
+            box-sizing: border-box;
+        }
+    }
 }
 @media screen and (max-width: $screen-xs-max) {
-	.tpl-grid_xs-ratio_1-1 {
-		grid-template-columns: 1fr 1fr;
+    .tpl-grid_xs-ratio_1-1 {
+        grid-template-columns: 1fr 1fr;
 
-		.tpl-grid__fraction {
-			padding: var(--col-gap-half);
-			box-sizing: border-box;
-		}
-	}
+        .tpl-grid__fraction {
+            padding: var(--col-gap-half);
+            box-sizing: border-box;
+        }
+    }
 }
 
 @media screen and (min-width: $screen-s) {
-	.tpl-grid_s-ratio {
-		&_1-1-1-1-1 { grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
-		&_1-1-1-1 { grid-template-columns: 1fr 1fr 1fr 1fr; }
-		&_1-1-1 { grid-template-columns: 1fr 1fr 1fr; }
-		&_1-1 { grid-template-columns: 1fr 1fr; }
-	}
-	.tpl-grid_s-columns {
-		&_5 { grid-template-columns: repeat(5, 1fr); }
-		&_6 { grid-template-columns: repeat(6, 1fr); }
-		&_8 { grid-template-columns: repeat(8, 1fr); }
-	}
+    .tpl-grid_s-ratio {
+        &_1-1-1-1-1 { grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+        &_1-1-1-1 { grid-template-columns: 1fr 1fr 1fr 1fr; }
+        &_1-1-1 { grid-template-columns: 1fr 1fr 1fr; }
+        &_1-1 { grid-template-columns: 1fr 1fr; }
+    }
+    .tpl-grid_s-columns {
+        &_5 { grid-template-columns: repeat(5, 1fr); }
+        &_6 { grid-template-columns: repeat(6, 1fr); }
+        &_8 { grid-template-columns: repeat(8, 1fr); }
+    }
 }
 @media screen and (min-width: $screen-m) {
-	.tpl-grid_m-ratio {
-		&_1-1-1-1-1 { grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
-		&_1-1-1-1 { grid-template-columns: 1fr 1fr 1fr 1fr; }
-		&_1-1-1 { grid-template-columns: 1fr 1fr 1fr; }
-		&_1-1 { grid-template-columns: 1fr 1fr; }
-	}
-	.tpl-grid_m-columns {
-		&_12 { grid-template-columns: repeat(12, 1fr); }
-		&_10 { grid-template-columns: repeat(10, 1fr); }
-		&_6 { grid-template-columns: repeat(6, 1fr); }
-	}
+    .tpl-grid_m-ratio {
+        &_1-1-1-1-1 { grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+        &_1-1-1-1 { grid-template-columns: 1fr 1fr 1fr 1fr; }
+        &_1-1-1 { grid-template-columns: 1fr 1fr 1fr; }
+        &_1-1 { grid-template-columns: 1fr 1fr; }
+    }
+    .tpl-grid_m-columns {
+        &_12 { grid-template-columns: repeat(12, 1fr); }
+        &_10 { grid-template-columns: repeat(10, 1fr); }
+        &_6 { grid-template-columns: repeat(6, 1fr); }
+    }
 }
 @media screen and (min-width: $screen-l) {
-	.tpl-grid_l-ratio {
-		&_1-1-1-1-1 { grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
-		&_1-1-1-1 { grid-template-columns: 1fr 1fr 1fr 1fr; }
-		&_1-1-1 { grid-template-columns: 1fr 1fr 1fr; }
-		&_1-1 { grid-template-columns: 1fr 1fr; }
-	}
-	.tpl-grid_l-columns {
-		&_12 { grid-template-columns: repeat(12, 1fr); }
-		&_10 { grid-template-columns: repeat(10, 1fr); }
-		&_6 { grid-template-columns: repeat(6, 1fr); }
-	}
+    .tpl-grid_l-ratio {
+        &_1-1-1-1-1 { grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+        &_1-1-1-1 { grid-template-columns: 1fr 1fr 1fr 1fr; }
+        &_1-1-1 { grid-template-columns: 1fr 1fr 1fr; }
+        &_1-1 { grid-template-columns: 1fr 1fr; }
+    }
+    .tpl-grid_l-columns {
+        &_12 { grid-template-columns: repeat(12, 1fr); }
+        &_10 { grid-template-columns: repeat(10, 1fr); }
+        &_6 { grid-template-columns: repeat(6, 1fr); }
+    }
 }
 @media screen and (min-width: $screen-xl) {
-	.tpl-grid_xl-ratio {
-		&_1-1-1-1-1 { grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
-		&_1-1-1-1 { grid-template-columns: 1fr 1fr 1fr 1fr; }
-		&_1-1-1 { grid-template-columns: 1fr 1fr 1fr; }
-		&_1-1 { grid-template-columns: 1fr 1fr; }
-	}
-	.tpl-grid_xl-columns {
-		&_12 { grid-template-columns: repeat(12, 1fr); }
-		&_10 { grid-template-columns: repeat(10, 1fr); }
-		&_6 { grid-template-columns: repeat(6, 1fr); }
-	}
+    .tpl-grid_xl-ratio {
+        &_1-1-1-1-1 { grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+        &_1-1-1-1 { grid-template-columns: 1fr 1fr 1fr 1fr; }
+        &_1-1-1 { grid-template-columns: 1fr 1fr 1fr; }
+        &_1-1 { grid-template-columns: 1fr 1fr; }
+    }
+    .tpl-grid_xl-columns {
+        &_12 { grid-template-columns: repeat(12, 1fr); }
+        &_10 { grid-template-columns: repeat(10, 1fr); }
+        &_6 { grid-template-columns: repeat(6, 1fr); }
+    }
 }

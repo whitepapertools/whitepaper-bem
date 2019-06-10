@@ -1,0 +1,5 @@
+.pt-card_vertical-align_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}

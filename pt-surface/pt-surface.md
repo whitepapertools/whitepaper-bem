@@ -4,52 +4,48 @@
 
 Используется для представления перекрывающего слоя / модального блока. Существует в двух цветовых модификациях «паранджа» и «молоко». В контентную часть можно разместить любой тип контента: формы, информеры, текст. При появлени перекрывающего слоя на скролл реагирует только контент, который находится внутри слоя.
 
-```js
-{
-	block: 'pt-surface',
-	attrs: { id: 'demoModal' }, // у кнопки для вызова такой модалки должен быть атрибут data-name: 'demoModal'
-	mods: { view: 'tone' },
-	content: [
-	{
-		elem: 'window',
-		content: [
-		{
-			elem: 'content',
-			elemMods: { size: 'full', view: 'inverse', 'space-a': 'xl' },
-			content: [
-			{
-				elem: 'close',
-				elemMods: { view: 'desktop' },
-				mix: { block: 'icon', mods: { 'close': 'm-primary' } }
-			},
-			{
-				// тут наполнение модалки
-			}]
-		}]
-	}]
-}
+```html
+<div class="pt-surface pt-surface_view_tone">
+    <div class="pt-surface__window">
+        <div class="pt-surface__content pt-surface__content_size_full pt-surface__content_view_inverse pt-surface__content_space-a_xl">
+            <div class="pt-surface__close pt-surface__close_view_desktop icon icon_name_close icon_size_m icon_view_primary"></div>
+            // конент
+        </div>
+    </div>
+</div>
 ```
 
-Модификаторы | Значение    | Описание
------------- | ----------- | ----------------------------------
-view         | soft / tone | Цвет закрывающей страницу подложки
+## Живые примеры и дизайн
+
+[pt-surface на whitepaper.tools](http://whitepaper.tools/doc.html#/pt-surface)
+
+
+Модификаторы | Значение      | Описание
+------------ | ------------- | ----------------------------------
+`view`       | `soft` `tone` | Цвет закрывающей страницу подложки
+
+___
+
 
 ## Элемент content
 
-Модификаторы элемента `content`    | Значение                            | Описание
----------------------------------- | ----------------------------------- | -----------------------------------
-size                               | xs / s / m / full                   | Размер контентной части
-view                               | default                             | Фон
-space-a                            | s / m / l / xl / xxl / xxxl / xxxxl | Внутренние отступы по всем сторонам
-space-h                            | s / m / l / xl / xxl / xxxl / xxxxl | Внутренние отступы по горизонтали
-space-v                            | s / m / l / xl / xxl / xxxl / xxxxl | Внутренние отступы по вертикали
-space-t                            | s / m / l / xl / xxl / xxxl / xxxxl | Внутренний отступ сверху
-space-r                            | s / m / l / xl / xxl / xxxl / xxxxl | Внутренний отступ справа
-space-b                            | s / m / l / xl / xxl / xxxl / xxxxl | Внутренний отступ снизу
-space-l                            | s / m / l / xl / xxl / xxxl / xxxxl | Внутренний отступ слева
+Модификаторы элемента `content` | Значение                           | Описание
+------------------------------- | ---------------------------------- | -----------------------------------
+`size`                          | `xs` `s` `m` `full`                | Размер контентной части
+`view`                          | `default`                          | Фон
+`space-a`                       | `s` `m` `l` `xl` `2xl` `3xl` `4xl` | Внутренние отступы по всем сторонам
+`space-h`                       | `s` `m` `l` `xl` `2xl` `3xl` `4xl` | Внутренние отступы по горизонтали
+`space-v`                       | `s` `m` `l` `xl` `2xl` `3xl` `4xl` | Внутренние отступы по вертикали
+`space-t`                       | `s` `m` `l` `xl` `2xl` `3xl` `4xl` | Внутренний отступ сверху
+`space-r`                       | `s` `m` `l` `xl` `2xl` `3xl` `4xl` | Внутренний отступ справа
+`space-b`                       | `s` `m` `l` `xl` `2xl` `3xl` `4xl` | Внутренний отступ снизу
+`space-l`                       | `s` `m` `l` `xl` `2xl` `3xl` `4xl` | Внутренний отступ слева
+
+___
+
 
 ## Элемент close
 
-Модификаторы элемента `close`    | Значение         | Описание
--------------------------------- | ---------------- | ---------------------------
-view                             | mobile / desktop | Размер кликабельной области
+Модификаторы элемента `close` | Значение           | Описание
+----------------------------- | ------------------ | ---------------------------
+`view`                        | `mobile` `desktop` | Размер кликабельной области

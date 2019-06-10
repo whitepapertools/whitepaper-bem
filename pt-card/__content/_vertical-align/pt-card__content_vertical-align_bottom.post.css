@@ -1,0 +1,5 @@
+.pt-card__content_vertical-align_bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}

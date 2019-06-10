@@ -1,0 +1,6 @@
+.icon_border_success {
+    background-repeat: no-repeat;
+    padding: var(--space-s);
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px var(--color-bg-success);
+}

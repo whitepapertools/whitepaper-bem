@@ -1,0 +1,6 @@
+.pt-list_space-v_2xl {
+    .pt-list__item {
+        padding-top: var(--space-2xl);
+        padding-bottom: var(--space-2xl);
+    }
+}

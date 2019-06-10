@@ -1,0 +1,11 @@
+.pt-form_space-v_s .pt-form__item {
+    padding-top: var(--space-s);
+    padding-bottom: var(--space-s);
+}
+
+.pt-form_space-v_s .pt-form__item:not(.pt-form_bordered):first-child {
+    padding-top: 0;
+}
+.pt-form_space-v_s .pt-form__item:not(.pt-form_bordered):last-child {
+    padding-bottom: 0;
+}

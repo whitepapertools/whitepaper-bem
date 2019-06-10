@@ -1,3 +1,3 @@
 .pt-table__row_status_default {
-	box-shadow: inset var(--space-xxs) 0 0 var(--color-bg-normal);
+    border-left: var(--space-2xs) solid var(--color-bg-normal);
 }
