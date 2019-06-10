@@ -11,19 +11,3 @@ $screen-m-max: 1279px;
 $screen-l-max: 1439px;
 $screen-xl-max: 1599px;
 $screen-2xl-max: 1920px;
-
-.theme_breakpoint_default {
-	--screen-xs: 320px;
-	--screen-s: 720px;
-	--screen-m: 1024px;
-	--screen-l: 1280px;
-	--screen-xl: 1440px;
-	--screen-2xl: 1600px;
-
-	--screen-xs-max: 719px;
-	--screen-s-max: 1023px;
-	--screen-m-max: 1279px;
-	--screen-l-max: 1439px;
-	--screen-xl-max: 1599px;
-	--screen-2xl-max: 1920px;
-}
