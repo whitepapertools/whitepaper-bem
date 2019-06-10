@@ -4,20 +4,52 @@
 Миксуется к самому внешнему блоку, например `body`. Это обязательное условие для работы системы.
 
 ```html
-<body class="page theme theme_color_default theme_space_default theme_menu_default theme_size_default theme_gap_medium"></body>
+<body class="page
+  theme
+  theme_color_default
+  theme_space_default
+  theme_size_default
+  theme_gap_medium
+  ">
+  ...
+</body>
 ```
+
 
 Получается, что слой темы состоит из нескольких маленьких тем. Их можно менять независимо друг от друга. Т.е. можно поменять цвет, не трогая типографику и отступы.
 
 На странице можно использовать несколько тем.
 
 ```html
-<body class="theme theme_color_default theme_space_default theme_menu_default theme_size_default theme_gap_medium">
-	<section></section>
-    <section class="theme theme_color_inverse"> /* секция с инверсией цветов */ </section>
-	<section class="theme theme_color_brand> /* брендированная секция */ </section>
+<body class="page
+  theme
+  theme_color_default
+  theme_space_default
+  theme_size_default
+  theme_gap_medium
+  ">
+
+  <section class="section theme theme_color_inverse">
+    <!-- секция с инверсией цветов -->
+    ...
+  </section>
+
+  <section class="section theme theme_color_brand">
+    <!-- секция с цветами бренда -->
+    ...
+  </section>
 </body>
 ```
+
+
+## Живые примеры и дизайн
+
+[theme на whitepaper.tools](http://whitepaper.tools/doc.html#/theme)
+
+___
+
+
+## Модификаторы
 
 Модификаторы       | Значение                                                     | Описание
 ------------------ | ------------------------------------------------------------ | ----------------------------------
@@ -28,7 +60,6 @@
 `font`             | `default`                                                    | Используемый шрифт
 `gap`              | `large` `medium` `small`                                     | Размер расстояния между колонками сетки
 `menu`             | `default`                                                    | Размер бокового меню
-`control`          | `whitepaper-brand` `whitepaper-default` `whitepaper-inverse` | Цветовая схема
 
 ___
 
@@ -39,35 +70,36 @@ ___
 
 ```
 theme/
-	color/
-		default.css 	// по аналогии создай файл с названием совей темы
-	size/
-		default.css 	// по аналогии создай файл с названием совей темы
-	space/
-		default.css 	// по аналогии создай файл с названием совей темы
-	breakpoint/
-		default.css 	// по аналогии создай файл с названием совей темы
-	font/
-		default.css 	// по аналогии создай файл с названием совей темы
-	menu/
-		default.css 	// по аналогии создай файл с названием совей темы
-	gap/
-		lage.css 		// эти значения зависят от значений модификатора space
-		medium.css
-		small.css
+  color/
+  default.css 	// по аналогии создай файл с названием совей темы
+  size/
+  default.css 	// по аналогии создай файл с названием совей темы
+  space/
+  default.css 	// по аналогии создай файл с названием совей темы
+  breakpoint/
+  default.css 	// по аналогии создай файл с названием совей темы
+  font/
+  default.css 	// по аналогии создай файл с названием совей темы
+  menu/
+  default.css 	// по аналогии создай файл с названием совей темы
+  gap/
+  lage.css 		// эти значения зависят от значений модификатора space
+  medium.css
+  small.css
 ```
 
 ___
 
 
-### Цвета
+## Цвета
 
 Переменные цветов используются в модификациях блоков и типографики, подчёркивая их смысл или состояние. Все переменные для цветов называются по смыслу, месту их использования. Они не обозначают значение цвета.
 
-?> Для математики изменений цветов мы используем плагин [postcss-color-function](https://github.com/postcss/postcss-color-function), но также подойдёт любой другой популярный препроцессор.
+⚠️ Для математики изменений цветов мы используем плагин [postcss-color-function](https://github.com/postcss/postcss-color-function), но также подойдёт любой другой популярный препроцессор. Postcss-переменные присваиваются как значение в [custom properties](a href='https://developer.mozilla.org/en-US/docs/Web/CSS/--*).
 
 
-#### Базовые цвета
+
+### Базовые цвета
 
 5 цветов для статусов. Они не наследуются от основной палитры, но влияют на цвета статусные текста и фонов блоков. С префиксом `color-base-`
 
@@ -87,7 +119,7 @@ ___
 `$color-base-normal`    | Цвет системнный
 
 
-#### Цвета фонов
+### Цвета фонов
 
 С префиксом `--color-bg-`
 
@@ -111,7 +143,7 @@ ___
 `$color-bg-link`      | Цвет фона ссылки
 
 
-#### Цвета типографики
+### Цвета типографики
 
 С префиксом `--color-typo` и `--color-link`
 
@@ -133,24 +165,37 @@ ___
 `$color-link-minor`    | Цвет второстепенной ссылки
 `$color-link-hover`    | Цвет ховера ссылки
 
+Чтобы применить цвет к своему локальном блоку используй нужную переменную.
 
-#### Отступы
+```css
+.your-block {
+  background: var(--color-bg-brand);
+}
+```
+
+___
+
+
+## Отступы
 
 Переменные отступов используются как для ритма внутри сеток, так и для обозначения уровней вложенности и разделения смысловых сущностей внутри паттернов.
 
-Переменная            | Описание
---------------------- | --------------
-`--space-3xs`         | Размер отступа
-`--space-2xs`         | Размер отступа
-`--space-xs`          | Размер отступа
-`--space-s`           | Размер отступа
-`--space-m`           | Размер отступа
-`--space-l`           | Размер отступа
-`--space-xl`          | Размер отступа
-`--space-2xl`         | Размер отступа
-`--space-3xl`         | Размер отступа
-`--space-4xl`         | Размер отступа
-`--space-4xl`         | Размер отступа
+```css
+.theme_space_default {
+  --space-3xs: 2px;
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-s: 12px;
+  --space-m: 16px;
+  --space-l: 20px;
+  --space-xl: 24px;
+  --space-2xl: 32px;
+  --space-3xl: 40px;
+  --space-4xl: 48px;
+  --space-5xl: 72px;
+  --space-6xl: 96px;
+}
+```
 
 
 Вышеуказанные переменные указываются для значений модификаторов паттернов на внешние и внутренние отступы. В дефолтной теме используются отступы с модулем 4px + самое маленькое значение 2px.
@@ -179,46 +224,53 @@ ___
 Эти переменные могут использоваться в локальных стилях, но только когда нет возможности использовать блок `text`
 
 
-Переменная            | Описание
---------------------- | -------------------
-`--size-typo-xs`      | Размер текста `xs`
-`--size-typo-s`       | Размер текста `s`
-`--size-typo-m`       | Размер текста `m`
-`--size-typo-xl`      | Размер текста `xl`
-`--size-typo-2xl`     | Размер текста `2xl`
-`--size-typo-3xl`     | Размер текста `3xl`
-`--size-typo-4xl`     | Размер текста `4xl`
-`--size-typo-5xl`     | Размер текста `5xl`
-`--size-typo-6xl`     | Размер текста `6xl`
+```css
+.theme_size_default {
+    /* Размер текста */
+    --size-typo-xs: 11px;
+    --size-typo-s: 13px;
+    --size-typo-m: 15px;
+    --size-typo-l: 18px;
+    --size-typo-xl: 20px;
+    --size-typo-xxl: 24px;
+    --size-typo-xxxl: 32px;
+    --size-typo-xxxxl: 48px;
+    --size-typo-xxxxxl: 72px;
+    --size-typo-xxxxxxl: 96px;
+
+    /* Межстрочный интервал */
+    --line-height-typo-xs: 15px;
+    --line-height-typo-s: 18px;
+    --line-height-typo-m: 21px;
+    --line-height-typo-l: 25px;
+    --line-height-typo-xl: 28px;
+    --line-height-typo-xxl: 34px;
+    --line-height-typo-xxxl: 42px;
+    --line-height-typo-xxxxl: 62px;
+    --line-height-typo-xxxxxl: 82px;
+    --line-height-typo-xxxxxxl: 115px;
+}
+```
+
+___
 
 
-Переменная               | Описание
------------------------- | -------------------
-`--line-height-typo-xs`  | Размер текста `xs`
-`--line-height-typo-s`   | Размер текста `s`
-`--line-height-typo-m`   | Размер текста `m`
-`--line-height-typo-xl`  | Размер текста `xl`
-`--line-height-typo-2xl` | Размер текста `2xl`
-`--line-height-typo-3xl` | Размер текста `3xl`
-`--line-height-typo-4xl` | Размер текста `4xl`
-`--line-height-typo-5xl` | Размер текста `5xl`
-`--line-height-typo-6xl` | Размер текста `6xl`
-
-
-### Шрифты
+## Шрифты
 
 Модификатор темы `font` определяет шрифтовую гарнитуру у текстовых блоков. Используй миксование темы для изменения шрифтовой настройки блока на любом уровне.
 
 ```html
-<article class="theme_font_ibm">
-	<h2 class="text text_size_xxl text_font_sans"></h2>
-	<p class="text text_size_m text_font_serif"></p>
-	<button class="button theme_font_default"></button>
+<article class="theme_font_default">
+  <h2 class="text text_size_xxl text_font_sans"></h2>
+  <p class="text text_size_m text_font_serif"></p>
+  <button class="button theme_font_brand"></button>
 </article>
 ```
 
+___
 
-### Расстояния
+
+## Расстояния
 
 Модификатор темы `gap` используются для формирования отступов внутри обвязок и сеток. Значений всего три: `small`, `medium`, `large`.
 
@@ -226,58 +278,80 @@ ___
 
 В значение переменной `--gap` указывается любая переменная из отступов.
 
-Переменная             | Описание
----------------------- | ---------------------
-`--col-gap-third`      | Одна треть расстояние
-`--col-gap-half`       | Половина расстояние
-`--col-gap-two-thirds` | Две трети расстояние
-`--col-gap-full`       | Полное расстояние
-`--col-gap-2x`         | Двойное расстояние
-`--col-gap-3x`         | Тройнон расстояние
+```css
+.theme_gap_medium {
+    /* Размеры отступа у контента */
+    --gap: var(--space-l);
+
+    /* Размеры отступов в колонках относительно --gap */
+    --col-gap-third: calc(var(--gap) * 0.33); /* Одна треть */
+    --col-gap-half: calc(var(--gap) * 0.5); /* Половина */
+    --col-gap-two-thirds: calc(var(--gap) * 0.66); /* Две трети */
+    --col-gap-full: var(--gap); /* Полный */
+    --col-gap-2x: calc(var(--gap) * 2); /* Двойной */
+    --col-gap-3x: calc(var(--gap) * 3); /* Тройной */
+}
+
+@media screen and (min-width: $screen-s) {
+    :root { --gap: var(--space-xxxl); }
+}
+
+@media screen and (min-width: $screen-m) {
+    :root { --gap: var(--space-xxxxl); }
+}
+
+@media screen and (min-width: $screen-l) {
+    :root { --gap: var(--space-xxxxxl); }
+}
+```
+
+___
 
 
-### Меню
-
-Задаёт две переменные на размер меню в лэйауте.
-
-Переменная            | Описание
---------------------- | ---------------------------------
-`--menu-unfold`       | Ширина развернутого бокового меню
-`--menu-fold`         | Ширина свернутого бокового меню
-
-
-### Точки перестроения
+## Точки перестроения
 
 Postcss-переменные с префиксом `$screen` используются для адаптива сеточных конструкций и уникальных блоков.
 
-Переменная                      | Описание
-------------------------------- | --------------------------------
-`$screen-xs` `$screen-xs-max`   | Смартфоны
-`$screen-s` `$screen-s-max`     | Планшеты в вертикальном режиме
-`$screen-m` `$screen-m-max`     | Планшеты в горизонтальном режиме
-`$screen-l` `$screen-l-max`     | Ноутбуки
-`$screen-xl` `$screen-xl-max`   | Настольные компьютеры и ноутбуки
-`$screen-2xl` `$screen-2xl-max` | Настольные компьютеры
+```css
+/* Переменные для mobile-first подхода */
+$screen-xs: 320px; /* Смартфоны */
+$screen-s: 720px; /* Планшеты в вертикальном режиме */
+$screen-m: 1024px; /* Планшеты в горизонтальном режиме */
+$screen-l: 1280px; /* Ноутбуки */
+$screen-xl: 1440px; /* Настольные компьютеры и ноутбуки */
+$screen-xxl: 1600px; /* Настольные компьютеры */
+
+/* Переменные для desktop-first подхода */
+$screen-xs-max: 719px;
+$screen-s-max: 1023px;
+$screen-m-max: 1279px;
+$screen-l-max: 1439px;
+$screen-xl-max: 1599px;
+$screen-xxl-max: 1920px;
+```
 
 
-#### Использование в уникальных блоках
+### Использование в уникальных блоках
 
-Мы храним значения брейкпоинтов в postcss-переменных, для лёгкого применениях их в любых блоках проекта.
+⚠️ Мы храним значения брейкпоинтов в postcss-переменных, для лёгкого применениях их в любых блоках проекта.
 
 ```css
+@import 'path/to/your/theme_breakpoint_default.post.css';
+
 .block {
-	width: 200px;
-	...
+  width: 200px;
+  ...
 }
 @media screen and (min-width: $screen-s) {
-	.block {
-		width: 300px;
-		...
-	}
+  .block {
+  width: 300px;
+  ...
+  }
 }
 @media screen and (min-width: $screen-l) {
-	.block {
-		width: 450px;
-		...
-	}
+  .block {
+  width: 450px;
+  ...
+  }
 }
+```
