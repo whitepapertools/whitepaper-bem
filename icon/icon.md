@@ -11,11 +11,16 @@
 ```
 
 
+## Живые примеры и дизайн
+
+[icon на whitepaper.tools](http://whitepaper.tools/doc.html#/content-icons)
+
+
 ## Модификаторы блока
 
-Модификатор   | Значение | Описание
---------------|----------| --------
-`view`        | `default` `disable` `primary` `secondary` `ghost` `success` `warning` `alert` | Цвет
-`round`       | `default` `disable` `primary` `secondary` `ghost` `success` `warning` `alert` | Цвет круглой подложки
-`border`      | `primary` `secondary` `ghost` `success` `warning` `alert` | Цвет бордера бесцветной круглой подложки
-`size`        | `s` `m` | Размер иконки
+Модификатор | Значение                                                                      | Описание
+------------|-------------------------------------------------------------------------------| ----------------------------------------
+`view`      | `default` `disable` `primary` `secondary` `ghost` `success` `warning` `alert` | Цвет иконки
+`round`     | `default` `disable` `primary` `secondary` `ghost` `success` `warning` `alert` | Цвет круглой подложки
+`border`    | `primary` `secondary` `ghost` `success` `warning` `alert`                     | Цвет бордера бесцветной круглой подложки
+`size`      | `s` `m`                                                                       | Размер иконки

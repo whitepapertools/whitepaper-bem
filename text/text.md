@@ -6,13 +6,15 @@
 
 Кегль, межстрочное расстояние и цвет текста, задаются через переменные, которые описываются в Теме.
 
+Для простого манипулирования уровнями иерархии для инфо-страниц в блоке `text` есть модификаторы `type`.
+
 ```html
 <div class="text text_size_xxxl text_view_secondary text_weight_bold">Some nice text</div>
 ```
 
-
 ## Живые примеры и дизайн
-Для простого манипулирования уровнями иерархии для инфо-страниц в блоке `text` есть модификаторы `type`. [Пример](https://codepen.io/whitepapertools/pen/6ade0a2ae7f41842e8492859f21baf4d/)
+
+[text на whitepaper.tools](http://whitepaper.tools/doc.html#/content-text)
 
 
 ## Модификаторы блока

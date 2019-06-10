@@ -12,8 +12,6 @@
 </div>
 ```
 
-
-
 ## Живые примеры и дизайн
 
 [pt-table на whitepaper.tools](http://whitepaper.tools/doc.html#/pt-table)
@@ -64,16 +62,3 @@ ___
 ---------------------------- | ----------------------- | ---------------------------
 `align`                      | `left` `center` `right` | Выравнивание по горизонтали
 `width`                      | `5` `10` `15` `20` `25` `30` `35` `40` `45` `50` `55` `60` `65` `70` `75` `80` `85` `90` `95` `100` | Ширина ячейки в процентах от ширины таблицы
-
-___
-
-
-```html
-<div class="pt-table">
-    <div class="pt-table__row">
-        <div class="pt-table__col"></div>
-        <div class="pt-table__col"></div>
-        <div class="pt-table__col"></div>
-    </div>
-</div>
-```

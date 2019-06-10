@@ -17,6 +17,7 @@
 </div>
 ```
 
+
 ## Живые примеры и дизайн
 
 [tpl-layout на whitepaper.tools](http://whitepaper.tools/doc.html#/layout-outer)
@@ -39,8 +40,6 @@ ___
 
 Разделитель страницы, работает по правилам, заданным значением модификатора structure.
 Если значение `structure` `10-90`, то элементов `section` должно быть два. Если `20-60-20`, то три.
-
-### Примеры
 
 ```html
 <div class="tpl-layout tpl-layout_structure_50-50">
@@ -78,8 +77,6 @@ ___
 ----------- | ----------------- | -------------------------------------
 `size`        | `xs` `s` `m` `full` | Максимальная ширина контейнера
 `align`       | `center`            | Выравнивание конейнера по горизонтали
-
-### Примеры
 
 ```html
 <div class="tpl-layout tpl-layout_structure_fold-70-30">

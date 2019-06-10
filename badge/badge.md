@@ -7,7 +7,8 @@
 ```
 
 ## Живые примеры и дизайн
-[Пример](https://codepen.io/whitepapertools/pen/cfc6b56114a7d5664d69c12f693227da/)
+
+[badge на whitepaper.tools](http://whitepaper.tools/doc.html#/content-badge)
 
 
 ## Модификаторы блока

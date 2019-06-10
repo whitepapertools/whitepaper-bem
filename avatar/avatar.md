@@ -4,13 +4,15 @@
 
 ``` html
 <div class="avatar">
-	<div class="avatar__photo avatar__photo_size_m">
-	</div>
+    <div class="avatar__photo avatar__photo_size_m"></div>
 </div>
 ```
 
 ## Живые примеры и дизайн
-[avatar на whitepaper.tools](https://codepen.io/whitepapertools/pen/22222a8a7ecf82d941fe57a170619ac8/)
+
+[avatar на whitepaper.tools](http://whitepaper.tools/doc.html#/content-avatar)
+
+___
 
 
 ## Элементы блока

@@ -16,6 +16,11 @@
 ```
 
 
+## Живые примеры и дизайн
+
+[vector на whitepaper.tools](http://whitepaper.tools/doc.html#/content-vectors)
+
+
 ## Модификаторы блока
 
 Модификатор | Значение                            | Описание
