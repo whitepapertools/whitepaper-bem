@@ -27,10 +27,10 @@ ___
 
 ## Модификаторы
 
-Модификатор | Значение                                                                  | Описание
------------ | ------------------------------------------------------------------------- | --------------------------------------
-`structure` | `10-90` `20-60-20` `30-70` `50-50` `70-30` `90-10`                          | Разделение страницы на секции без меню
-`structure` | `fold-100` `fold-25-50-25` `fold-30-70` `fold-50-50` `fold-70-30`           | Разделение страницы на секции со свёрнутым меню
+Модификатор | Значение                                           | Описание
+----------- | -------------------------------------------------- | --------------------------------------
+`structure` | `10-90` `20-60-20` `30-70` `50-50` `70-30` `90-10` | Разделение страницы на секции без меню
+`structure` | `fold-100` `fold-25-50-25` `fold-30-70` `fold-50-50` `fold-70-30` | Разделение страницы на секции со свёрнутым меню
 `structure` | `unfold-100` `unfold-25-50-25` `unfold-30-70` `unfold-50-50` `unfold-70-30` | Разделение страницы на секции с развернутым меню
 
 ___
@@ -43,26 +43,16 @@ ___
 
 ```html
 <div class="tpl-layout tpl-layout_structure_50-50">
-    <div class="tpl-layout__section">
-        ...
-    </div>
-    <div class="tpl-layout__section">
-        ...
-    </div>
+    <div class="tpl-layout__section"></div>
+    <div class="tpl-layout__section"></div>
 </div>
 ```
 
 ```html
 <div class="tpl-layout tpl-layout_structure_fold-70-30">
-    <div class="tpl-layout__section">
-        ...
-    </div>
-    <div class="tpl-layout__section">
-        ...
-    </div>
-    <div class="tpl-layout__section">
-        ...
-    </div>
+    <div class="tpl-layout__section"></div>
+    <div class="tpl-layout__section"></div>
+    <div class="tpl-layout__section"></div>
 </div>
 ```
 
@@ -80,9 +70,8 @@ ___
 
 ```html
 <div class="tpl-layout tpl-layout_structure_fold-70-30">
-    <div class="tpl-layout__section">
-        ...
-    </div>
+    <div class="tpl-layout__section"></div>
+
     <div class="tpl-layout__section">
         <div class="tpl-layout__container tpl-layout__container_size_xs">Контейнер</div>
     </div>

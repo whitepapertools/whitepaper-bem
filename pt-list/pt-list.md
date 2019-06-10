@@ -3,33 +3,10 @@
 `pt-list` используется для вертикального представления повторяющихся сущностей. Отлично подходит для отображения истории, контактов, вертикальных меню.
 
 ```html
-<div class="preview">
-    <div class="pt-list pt-list_border_all pt-list_view_default" style="min-width: 280px">
-    <div class="pt-list__item pt-list__item_border_bottom pt-list__item_distribute_between pt-list__item_space-a_m">
-        <div class="text text_size_m text_view_primary text_transform_uppercase text_spacing_s">
-            Первая операция
-        </div>
-        <div class="text text_size_m text_view_success text_weight_bold text_transform_uppercase text_spacing_s">
-            +1000 ₽
-        </div>
-    </div>
-    <div class="pt-list__item pt-list__item_border_bottom pt-list__item_distribute_between pt-list__item_space-a_m">
-        <div class="text text_size_m text_view_primary text_transform_uppercase text_spacing_s">
-            Вторая операция
-        </div>
-        <div class="text text_size_m text_view_alert text_weight_bold text_transform_uppercase text_spacing_s">
-            -500 ₽
-        </div>
-    </div>
-    <div class="pt-list__item pt-list__item_border_bottom pt-list__item_distribute_between pt-list__item_space-a_m">
-        <div class="text text_size_m text_view_primary text_transform_uppercase text_spacing_s">
-            Третья операция
-        </div>
-        <div class="text text_size_m text_view_success text_weight_bold text_transform_uppercase text_spacing_s">
-            +2000 ₽
-        </div>
-    </div>
-    </div>
+<div class="pt-list pt-list_border pt-list_view_default pt-list_space-a_m pt-list_distribute_between">
+	<div class="pt-list__item"></div>
+	<div class="pt-list__item"></div>
+	<div class="pt-list__item"></div>
 </div>
 ```
 

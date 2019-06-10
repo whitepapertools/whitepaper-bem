@@ -4,9 +4,7 @@
 Миксуется к самому внешнему блоку, например `body`. Это обязательное условие для работы системы.
 
 ```html
-<body class="page theme theme_color_default theme_space_default theme_menu_default theme_size_default theme_gap_medium">
-	...
-</body>
+<body class="page theme theme_color_default theme_space_default theme_menu_default theme_size_default theme_gap_medium"></body>
 ```
 
 Получается, что слой темы состоит из нескольких маленьких тем. Их можно менять независимо друг от друга. Т.е. можно поменять цвет, не трогая типографику и отступы.
@@ -14,14 +12,10 @@
 На странице можно использовать несколько тем.
 
 ```html
-<body class="page theme theme_color_default theme_space_default theme_menu_default theme_size_default theme_gap_medium"> /* этот микс нужен обязательно */
-	<div class="section></div>
-    <div class="section theme theme_color_inverse"> /* секция с инверсией цветов */
-        ...
-    </div>
-	<div class="sectiontheme theme_color_brand> /* брендированная секция */
-		...
-	</div>
+<body class="theme theme_color_default theme_space_default theme_menu_default theme_size_default theme_gap_medium">
+	<section></section>
+    <section class="theme theme_color_inverse"> /* секция с инверсией цветов */ </section>
+	<section class="theme theme_color_brand> /* брендированная секция */ </section>
 </body>
 ```
 
@@ -64,7 +58,6 @@ theme/
 ```
 
 ___
-
 
 
 ### Цвета
@@ -218,9 +211,9 @@ ___
 
 ```html
 <article class="theme_font_ibm">
-	<h2 class="text text_size_xxl text_font_sans">...</h2>
-	<p class="text text_size_m text_font_serif">...</p>
-	<button class="button theme_font_default">...</button>
+	<h2 class="text text_size_xxl text_font_sans"></h2>
+	<p class="text text_size_m text_font_serif"></p>
+	<button class="button theme_font_default"></button>
 </article>
 ```
 
@@ -229,7 +222,7 @@ ___
 
 Модификатор темы `gap` используются для формирования отступов внутри обвязок и сеток. Значений всего три: `small`, `medium`, `large`.
 
-Переменные с префиксом `--col-gap-`, `--row-gap-` задают расстояния между колонками и строками сетки. Они наследуются от одной корневой переменной `--gap`, которая переопределяется в зависимости от разрешения.
+Переменные с префиксом `--col-gap`, `--row-gap` задают расстояния между колонками и строками сетки. Они наследуются от одной корневой переменной `--gap`, которая переопределяется в зависимости от разрешения.
 
 В значение переменной `--gap` указывается любая переменная из отступов.
 
@@ -250,12 +243,12 @@ ___
 Переменная            | Описание
 --------------------- | ---------------------------------
 `--menu-unfold`       | Ширина развернутого бокового меню
-`---menu-fold`        | Ширина свернутого бокового меню
+`--menu-fold`         | Ширина свернутого бокового меню
 
 
 ### Точки перестроения
 
-Postcss-переменные с префиксом `$screen-` используются для адаптива сеточных конструкций и уникальных блоков.
+Postcss-переменные с префиксом `$screen` используются для адаптива сеточных конструкций и уникальных блоков.
 
 Переменная                      | Описание
 ------------------------------- | --------------------------------
