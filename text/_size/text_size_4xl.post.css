@@ -1,4 +1,3 @@
 .text_size_4xl {
     font-size: var(--typo-size-4xl);
-    line-height: var(--typo-height-s);
 }
