@@ -1,5 +1,5 @@
 .theme_size_default {
-  /* Размер текста */
+  /* Font size — DEPRECATED */
   --size-typo-xs: 11px;
   --size-typo-s: 13px;
   --size-typo-m: 15px;
@@ -11,7 +11,7 @@
   --size-typo-5xl: 72px;
   --size-typo-6xl: 96px;
 
-  /* Межстрочный интервал */
+  /* Line height — DEPRECATED */
   --line-height-typo-xs: 1.4em;
   --line-height-typo-s: 1.5em;
   --line-height-typo-m: 1.6em;
@@ -22,4 +22,23 @@
   --line-height-typo-4xl: 1.4em;
   --line-height-typo-5xl: 1.2em;
   --line-height-typo-6xl: 1.2em;
+
+  /* Font size */
+  --typo-size-2xs: 9px;
+  --typo-size-xs: 11px;
+  --typo-size-s: 13px;
+  --typo-size-m: 15px;
+  --typo-size-l: 18px;
+  --typo-size-xl: 20px;
+  --typo-size-2xl: 24px;
+  --typo-size-3xl: 32px;
+  --typo-size-4xl: 48px;
+  --typo-size-5xl: 72px;
+  --typo-size-6xl: 96px;
+
+  /* Line height */
+  --typo-height-xs: 1.2em;
+  --typo-height-s: 1.4em;
+  --typo-height-m: 1.5em;
+  --typo-height-l: 1.6em;
 }
