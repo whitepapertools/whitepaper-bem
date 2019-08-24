@@ -227,16 +227,18 @@ ___
 ```css
 .theme_size_default {
     /* Размер текста */
-    --size-text-xs: 11px;
-    --size-text-s: 13px;
-    --size-text-m: 15px;
-    --size-text-l: 18px;
-    --size-text-xl: 20px;
-    --size-text-2xl: 24px;
-    --size-text-3xl: 32px;
-    --size-text-4xl: 48px;
-    --size-text-5xl: 72px;
-    --size-text-6xl: 96px;
+    --size-text-base: 16px;
+
+    --size-text-xs: 0.7em;
+    --size-text-s: 0.8em;
+    --size-text-m: 1em;
+    --size-text-l: 1.125em;
+    --size-text-xl: 1.25em;
+    --size-text-2xl: 1.5em;
+    --size-text-3xl: 2em;
+    --size-text-4xl: 3em;
+    --size-text-5xl: 4.5em;
+    --size-text-6xl: 6em;
 
     /* Межстрочный интервал */
     --line-height-text-xs: 1.2em;
