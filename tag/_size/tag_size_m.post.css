@@ -5,7 +5,7 @@
     font-size: var(--size-text-m, var(--size-typo-m));  /* Fallback to deprecated variable */
     line-height: var(--line-height-text-m, var(--line-height-typo-m));  /* Fallback to deprecated variable */
 
-    .pt-tag__delete {
+    & .tag__delete {
         margin: 0 calc(-1 * var(--space-3xs)) 0 var(--space-2xs);
         cursor: pointer;
     }

@@ -2,10 +2,10 @@
     height: calc(var(--space-xl) + var(--space-2xs));
     padding: 0 var(--space-s);
     border-radius: var(--radius-m);
-    font-size: var(--size-text-m, var(--size-typo-s));  /* Fallback to deprecated variable */
-    line-height: var(--line-height-text-m, var(--line-height-typo-s));  /* Fallback to deprecated variable */
+    font-size: var(--size-text-s, var(--size-typo-s));  /* Fallback to deprecated variable */
+    line-height: var(--line-height-text-s, var(--line-height-typo-s));  /* Fallback to deprecated variable */
 
-    & .pt-tag__delete {
+    & .tag__delete {
         margin: 0 calc(-1 * var(--space-2xs)) 0 var(--space-2xs);
         cursor: pointer;
     }
