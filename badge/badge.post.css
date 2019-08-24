@@ -7,7 +7,7 @@
     padding: var(--space-2xs) var(--space-s);
     overflow: hidden;
     border-radius: 99em;
-    font-size: var(--size-typo-s);
+    font-size: var(--size-text-s, var(--size-typo-s));
     font-weight: 500;
     white-space: nowrap;
     text-overflow: ellipsis;

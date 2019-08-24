@@ -1,4 +1,4 @@
 .text_size_xl {
-    font-size: var(--size-typo-xl);
-    line-height: var(--line-height-typo-xl);
+    font-size: var(--size-text-xl, var(--size-typo-xl)); /* Fallback to deprecated variable */
+    line-height: var(--line-height-text-m, var(--line-height-typo-xl)); /* Fallback to deprecated variable */
 }

@@ -10,4 +10,6 @@
     --graphics-size-4xl: 120px;
 
     --radius-m: 16px;
+
+    font-size: var(--size-text-base);
 }
