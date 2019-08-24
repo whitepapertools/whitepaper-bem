@@ -38,6 +38,17 @@ ___
 `indent-l`                   | `2xs` `xs` `s` `m` `l` `xl` `2xl` `3xl` `4xl` `5xl` | Отступ слева
 `indent-r`                   | `2xs` `xs` `s` `m` `l` `xl` `2xl` `3xl` `4xl` `5xl` | Отступ справа
 
+Если в качестве графического элемента используется блок icon, то в самом svg-файле лучше не указывать цвета, а использовать значение currentColor. Тогда можно миксовать текстовый блок к `pt-icon-plus`, тогда не нужно будет применять модификатор на цвет у иконки. Это удобно, когда цвет контента всего блока должен меняться по ховеру.
+
+```html
+<div class="pt-icon-plus text text_size_s text_line-height_m text_view_brand">
+	<div class="icon icon_size_s icon_name_dot pt-icon-plus__icon pt-icon-plus__icon_indent-r_xs">
+    	<svg></svg>
+	</div>
+    Физики ускорили сбор росы с помощью канавок
+</div>
+```
+
 ___
 
 
