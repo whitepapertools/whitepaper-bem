@@ -2,3 +2,29 @@
     display: flex;
     flex-wrap: nowrap;
 }
+
+.pt-icon-plus_xs-direction {
+    &_column { flex-direction: column; }
+    &_row { flex-direction: row; }
+}
+
+@media screen and (max-width: $screen-s-max) {
+    .pt-icon-plus_s-direction {
+	    &_column { flex-direction: column; }
+	    &_row { flex-direction: row; }
+	}
+}
+
+@media screen and (max-width: $screen-m-max) {
+    .pt-icon-plus_m-direction {
+	    &_column { flex-direction: column; }
+	    &_row { flex-direction: row; }
+	}
+}
+
+@media screen and (max-width: $screen-l-max) {
+    .pt-icon-plus_l-direction {
+	    &_column { flex-direction: column; }
+	    &_row { flex-direction: row; }
+	}
+}
