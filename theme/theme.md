@@ -71,19 +71,19 @@ ___
 ```
 theme/
   color/
-  default.css 	// по аналогии создай файл с названием совей темы
+  default.css   // по аналогии создай файл с названием совей темы
   size/
-  default.css 	// по аналогии создай файл с названием совей темы
+  default.css   // по аналогии создай файл с названием совей темы
   space/
-  default.css 	// по аналогии создай файл с названием совей темы
+  default.css   // по аналогии создай файл с названием совей темы
   breakpoint/
-  default.css 	// по аналогии создай файл с названием совей темы
+  default.css   // по аналогии создай файл с названием совей темы
   font/
-  default.css 	// по аналогии создай файл с названием совей темы
+  default.css   // по аналогии создай файл с названием совей темы
   menu/
-  default.css 	// по аналогии создай файл с названием совей темы
+  default.css   // по аналогии создай файл с названием совей темы
   gap/
-  lage.css 		// эти значения зависят от значений модификатора space
+  lage.css     // эти значения зависят от значений модификатора space
   medium.css
   small.css
 ```
@@ -227,6 +227,25 @@ ___
 ```css
 .theme_size_default {
     /* Размер текста */
+    --size-text-xs: 11px;
+    --size-text-s: 13px;
+    --size-text-m: 15px;
+    --size-text-l: 18px;
+    --size-text-xl: 20px;
+    --size-text-2xl: 24px;
+    --size-text-3xl: 32px;
+    --size-text-4xl: 48px;
+    --size-text-5xl: 72px;
+    --size-text-6xl: 96px;
+
+    /* Межстрочный интервал */
+    --line-height-text-xs: 1.2em;
+    --line-height-text-s: 1.4em;
+    --line-height-text-m: 1.5em;
+    --line-height-text-l: 1.6em;
+
+
+    /* Размер текста DEPRECATED */
     --size-typo-xs: 11px;
     --size-typo-s: 13px;
     --size-typo-m: 15px;
@@ -238,7 +257,7 @@ ___
     --size-typo-5xl: 72px;
     --size-typo-6xl: 96px;
 
-    /* Межстрочный интервал */
+    /* Межстрочный интервал DEPRECATED */
     --line-height-typo-xs: 15px;
     --line-height-typo-s: 18px;
     --line-height-typo-m: 21px;

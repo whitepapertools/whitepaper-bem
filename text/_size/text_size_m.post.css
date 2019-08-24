@@ -1,3 +1,4 @@
 .text_size_m {
-    font-size: var(--typo-size-m);
+    font-size: var(--size-text-m, var(--size-typo-m)); /* Fallback to deprecated variable */
+    line-height: var(--line-height-text-m, var(--line-height-typo-m)); /* Fallback to deprecated variable */
 }

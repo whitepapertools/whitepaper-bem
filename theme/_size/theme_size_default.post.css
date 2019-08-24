@@ -24,21 +24,20 @@
   --line-height-typo-6xl: 1.2em;
 
   /* Font size */
-  --typo-size-2xs: 9px;
-  --typo-size-xs: 11px;
-  --typo-size-s: 13px;
-  --typo-size-m: 15px;
-  --typo-size-l: 18px;
-  --typo-size-xl: 20px;
-  --typo-size-2xl: 24px;
-  --typo-size-3xl: 32px;
-  --typo-size-4xl: 48px;
-  --typo-size-5xl: 72px;
-  --typo-size-6xl: 96px;
+  --size-text-xs: 11px;
+  --size-text-s: 13px;
+  --size-text-m: 15px;
+  --size-text-l: 18px;
+  --size-text-xl: 20px;
+  --size-text-2xl: 24px;
+  --size-text-3xl: 32px;
+  --size-text-4xl: 48px;
+  --size-text-5xl: 72px;
+  --size-text-6xl: 96px;
 
   /* Line height */
-  --typo-height-xs: 1.2em;
-  --typo-height-s: 1.4em;
-  --typo-height-m: 1.5em;
-  --typo-height-l: 1.6em;
+  --line-height-text-xs: 1.2em;
+  --line-height-text-s: 1.4em;
+  --line-height-text-m: 1.5em;
+  --line-height-text-l: 1.6em;
 }
