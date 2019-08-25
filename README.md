@@ -14,7 +14,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="https://whitepaper.tools/cdn/whitepaper-2.3.0.min.css">
+        <link rel="stylesheet" href="https://whitepaper.tools/cdn/whitepaper-2.3.1.min.css">
     </head>
     <body></body>
 </html>

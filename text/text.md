@@ -32,3 +32,4 @@
 `type`        | `h1` `h2` `h3` `p` `blockquote`            | Стиль текста
 `view`        | `alert` `brand` `disable` `ghost` `link-minor` `link` `primary` `promo` `secondary` `success` `warning` | Цвет
 `weight`      | `black` `bold` `semibold` `regular` `light` `thin` | Жирность шрифта
+`font`        | `sans` `serif` `mono`                      | Начертание шрифта
