@@ -48,9 +48,9 @@ ___
 
 ```html
 <div class="pt-icon-plus text text_size_s text_line-height_m text_view_brand">
-	<div class="icon icon_size_s icon_name_dot pt-icon-plus__icon pt-icon-plus__icon_indent-r_xs">
-    	<svg></svg>
-	</div>
+    <div class="icon icon_size_s icon_name_dot pt-icon-plus__icon pt-icon-plus__icon_indent-r_xs">
+        <svg></svg>
+    </div>
     Физики ускорили сбор росы с помощью канавок
 </div>
 ```
