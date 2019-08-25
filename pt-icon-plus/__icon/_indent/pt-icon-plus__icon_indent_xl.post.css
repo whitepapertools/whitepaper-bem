@@ -1,0 +1,53 @@
+.pt-icon-plus_xs-direction {
+    &_column .pt-icon-plus__icon_indent_xl { 
+        margin-bottom: var(--space-xl);
+    }
+    &_row .pt-icon-plus__icon_indent_xl:first-child {
+        margin-right: var(--space-xl);
+    }
+    &_row .pt-icon-plus__icon_indent_xl:last-child {
+        margin-left: var(--space-xl);
+    }
+}
+
+@media screen and (max-width: $screen-s-max) {
+    .pt-icon-plus_s-direction {
+        &_column .pt-icon-plus__icon_indent_xl { 
+            margin-bottom: var(--space-xl);
+        }
+        &_row .pt-icon-plus__icon_indent_xl:first-child {
+            margin-right: var(--space-xl);
+        }
+        &_row .pt-icon-plus__icon_indent_xl:last-child {
+            margin-left: var(--space-xl);
+        }
+    }
+}
+
+@media screen and (max-width: $screen-m-max) {
+    .pt-icon-plus_m-direction {
+        &_column .pt-icon-plus__icon_indent_xl { 
+            margin-bottom: var(--space-xl);
+        }
+        &_row .pt-icon-plus__icon_indent_xl:first-child {
+            margin-right: var(--space-xl);
+        }
+        &_row .pt-icon-plus__icon_indent_xl:last-child {
+            margin-left: var(--space-xl);
+        }
+    }
+}
+
+@media screen and (max-width: $screen-l-max) {
+    .pt-icon-plus_l-direction {
+        &_column .pt-icon-plus__icon_indent_xl { 
+            margin-bottom: var(--space-xl);
+        }
+        &_row .pt-icon-plus__icon_indent_xl:first-child {
+            margin-right: var(--space-xl);
+        }
+        &_row .pt-icon-plus__icon_indent_xl:last-child {
+            margin-left: var(--space-xl);
+        }
+    }
+}

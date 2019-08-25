@@ -1,7 +1,3 @@
 .pt-icon-plus_vertical-align_top {
     align-items: flex-start;
-
-    .pt-icon-plus__icon {
-        margin-top: var(--space-3xs);
-    }
 }
