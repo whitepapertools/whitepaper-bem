@@ -1,4 +1,4 @@
 .text_size_3xl {
-    font-size: var(--size-typo-3xl);
-    line-height: var(--line-height-typo-3xl);
+    font-size: var(--size-text-3xl, var(--size-typo-3xl)); /* Fallback to deprecated variable */
+    line-height: var(--line-height-text-m, var(--line-height-typo-3xl)); /* Fallback to deprecated variable */
 }

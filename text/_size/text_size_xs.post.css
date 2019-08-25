@@ -1,4 +1,4 @@
 .text_size_xs {
-    font-size: var(--size-typo-xs);
-    line-height: var(--line-height-typo-xs);
+    font-size: var(--size-text-xs, var(--size-typo-xs)); /* Fallback to deprecated variable */
+    line-height: var(--line-height-text-m, var(--line-height-typo-xs)); /* Fallback to deprecated variable */
 }

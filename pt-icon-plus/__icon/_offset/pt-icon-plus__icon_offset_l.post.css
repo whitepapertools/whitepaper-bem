@@ -1,0 +1,20 @@
+.pt-icon-plus__icon_offset_l {
+    top: 0.4em;
+    position: relative;
+}
+
+.pt-icon-plus_xs-direction {
+    .pt-icon-plus_xs-direction_column .pt-icon-plus__icon_offset_l { top: 0; }
+}
+
+@media screen and (max-width: $screen-s-max) {
+    .pt-icon-plus_s-direction_column .pt-icon-plus__icon_offset_l { top: 0; }
+}
+
+@media screen and (max-width: $screen-m-max) {
+    .pt-icon-plus_m-direction_column .pt-icon-plus__icon_offset_l { top: 0; }
+}
+
+@media screen and (max-width: $screen-l-max) {
+    .pt-icon-plus_l-direction_column .pt-icon-plus__icon_offset_l { top: 0; }
+}

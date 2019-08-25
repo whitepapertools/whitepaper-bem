@@ -1,0 +1,4 @@
+.text_size_2xs {
+    font-size: var(--size-text-2xs, var(--size-typo-2xs)); /* Fallback to deprecated variable */
+    line-height: var(--line-height-text-m, var(--line-height-typo-2xs)); /* Fallback to deprecated variable */
+}
