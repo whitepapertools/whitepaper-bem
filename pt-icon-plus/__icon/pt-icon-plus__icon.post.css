@@ -1,9 +1,11 @@
+@import "../../theme/_breakpoint/theme_breakpoint_default.post.css";
+
 .pt-icon-plus__icon {
     flex-shrink: 0;
 }
 
 .pt-icon-plus_xs-direction {
-    &_column .pt-icon-plus__icon { 
+    &_column .pt-icon-plus__icon {
         margin-bottom: var(--icon-indent);
     }
     &_row .pt-icon-plus__icon:first-child {
@@ -16,7 +18,7 @@
 
 @media screen and (max-width: $screen-s-max) {
     .pt-icon-plus_s-direction {
-        &_column .pt-icon-plus__icon { 
+        &_column .pt-icon-plus__icon {
             margin-bottom: var(--icon-indent);
         }
         &_row .pt-icon-plus__icon:first-child {
@@ -30,7 +32,7 @@
 
 @media screen and (max-width: $screen-m-max) {
     .pt-icon-plus_m-direction {
-        &_column .pt-icon-plus__icon { 
+        &_column .pt-icon-plus__icon {
             margin-bottom: var(--icon-indent);
         }
         &_row .pt-icon-plus__icon:first-child {
@@ -44,7 +46,7 @@
 
 @media screen and (max-width: $screen-l-max) {
     .pt-icon-plus_l-direction {
-        &_column .pt-icon-plus__icon { 
+        &_column .pt-icon-plus__icon {
             margin-bottom: var(--icon-indent);
         }
         &_row .pt-icon-plus__icon:first-child {
