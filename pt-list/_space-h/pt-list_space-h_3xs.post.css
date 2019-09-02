@@ -1,0 +1,6 @@
+.pt-list_space-h_3xs {
+    .pt-list__item {
+        padding-left: var(--space-3xs);
+        padding-right: var(--space-3xs);
+    }
+}
