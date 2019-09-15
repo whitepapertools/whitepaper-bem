@@ -1,3 +1,3 @@
-.decorator_border_right {
+.decorator_border_r {
   border-right: var(--border-width-default) solid var(--color-bg-border);
 }
