@@ -1,0 +1,4 @@
+.decorator_border_h {
+  border-left: var(--border-width-default) solid var(--color-bg-border);
+  border-right: var(--border-width-default) solid var(--color-bg-border);
+}

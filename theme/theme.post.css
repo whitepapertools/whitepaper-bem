@@ -11,5 +11,7 @@
 
     --radius-m: 16px;
 
+    --border-width-default: 1px;
+
     font-size: var(--size-text-base);
 }
