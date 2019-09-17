@@ -1,0 +1,4 @@
+.decorator_distribute_left {
+    display: flex;
+    justify-content: flex-start;
+}

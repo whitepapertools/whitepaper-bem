@@ -25,3 +25,4 @@
 `indent-l`               | `3xs` `2xs` `xs` `s` `m` `l` `xl` `2xl` `3xl` `4xl` `5xl` `6xl` `none` | Внешний отступ слева
 `distribute`             | `between` `center` `right`                                             | Распределение элементов по горизонтали
 `vertical-align`         | `baseline` `bottom` `center` `top`                                     | Вертикальное выравнивание
+`border`                 | `a` `v` `h` `top` `bottom` `left` `right`                              | Обводка
