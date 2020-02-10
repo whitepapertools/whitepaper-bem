@@ -38,6 +38,7 @@
   --size-text-6xl: 6em;
 
   /* Line height */
+  --line-height-text-2xs: 1em;
   --line-height-text-xs: 1.2em;
   --line-height-text-s: 1.4em;
   --line-height-text-m: 1.5em;
