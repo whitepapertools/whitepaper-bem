@@ -1,0 +1,4 @@
+.text_size_6xl {
+    font-size: var(--size-text-6xl, var(--size-typo-6xl)); /* Fallback to deprecated variable */
+    line-height: var(--line-height-text-m, var(--line-height-typo-6xl)); /* Fallback to deprecated variable */
+}

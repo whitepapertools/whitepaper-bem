@@ -1,0 +1,4 @@
+.text_size_5xl {
+    font-size: var(--size-text-5xl, var(--size-typo-5xl)); /* Fallback to deprecated variable */
+    line-height: var(--line-height-text-m, var(--line-height-typo-5xl)); /* Fallback to deprecated variable */
+}
