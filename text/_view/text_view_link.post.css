@@ -2,7 +2,7 @@
     color: var(--color-link);
     text-decoration: none;
     cursor: pointer;
-    transition: 0.2s ease;
+    transition: 0.16s ease;
 
     &:hover {
         color: var(--color-link-hover);
