@@ -2,6 +2,6 @@
   margin: 0 0 0.9em;
 }
 
-.text_type_p:not(:last-child) {
+.text_type_p:last-child {
   margin-bottom: 0;
 }
